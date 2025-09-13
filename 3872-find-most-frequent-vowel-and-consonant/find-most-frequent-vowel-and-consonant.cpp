@@ -9,7 +9,7 @@ public:
         int maxCons = 0;
         for(auto &i : mp){
             int temp = i.second;
-           if(i.first == 'a' || i.first == 'e' || i.first == 'i' || i.first == 'o' || i.first == 'u'){
+            if(i.first == 'a' || i.first == 'e' || i.first == 'i' || i.first == 'o' || i.first == 'u'){
                 maxVowels = max(maxVowels,temp);
             }
             else{
