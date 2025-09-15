@@ -10,12 +10,13 @@ public:
 
         bool canType = true;
         for(int i = 0;i<n;i++){
-            if(text[i] == ' '){
+            char c = text[i];
+            if(c == ' '){
                 if(canType)ans++;
                 canType = true;
             }
             else{
-                if(mp[text[i]])canType = false;
+                if(mp[c])canType = false;
             }
         }
         if(canType)ans++;
