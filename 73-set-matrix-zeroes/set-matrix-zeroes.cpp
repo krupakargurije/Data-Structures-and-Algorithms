@@ -4,7 +4,6 @@ public:
         int m = matrix.size();
         int n = matrix[0].size();
         vector<pair<int,int>> p;
-        vector<int> vis(n,0);
 
         for(int i = 0;i<m;i++){
             for(int j = 0;j<n;j++){
