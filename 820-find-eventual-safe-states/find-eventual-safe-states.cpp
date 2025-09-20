@@ -9,12 +9,10 @@ private:
         for(auto i: graph[start]){
             if(!vis[i]){
                 if(dfs(i,graph,vis,path,check) == true){
-                    check[start] = 0;
                     return true;
                 }
             }
             else if(path[i]){
-                check[start] = 0;
                 return true;
             }
         }
