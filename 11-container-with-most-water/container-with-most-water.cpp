@@ -4,7 +4,7 @@ public:
         int ans = 0;
         int i = 0,j = arr.size()-1;
         while(i < j){
-            int temp = (j-i) * min(arr[i],arr[j]);
+            int temp = min(arr[i],arr[j]) * (j-i);
             if(arr[i] == arr[j]){
                 i++;
                 j--;
