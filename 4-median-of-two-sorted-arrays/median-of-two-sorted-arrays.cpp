@@ -14,11 +14,11 @@ public:
             }
         }
 
-        while (i < nums1.size()) {
-            arr.push_back(nums1[i++]);
+        for (; i < nums1.size(); i++) {
+            arr.push_back(nums1[i]);
         }
-        while (j < nums2.size()) {
-            arr.push_back(nums2[j++]);
+        for (; j < nums2.size(); j++) {
+            arr.push_back(nums2[j]);
         }
 
         int n = arr.size();
