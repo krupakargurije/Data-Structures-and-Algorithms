@@ -5,9 +5,10 @@ public:
         int m = image[0].size();
         int oColor = image[sr][sc];
         if(oColor == color)return image;
-        image[sr][sc] = color;
+
         queue<pair<int,int>> q;
         q.push({sr,sc});
+        image[sr][sc] = color;
 
         int delRow[] = {-1,0,1,0};
         int delCol[] = {0,1,0,-1};
@@ -23,8 +24,8 @@ public:
 
                 if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m 
                 && image[nrow][ncol] == oColor){
-                    q.push({nrow,ncol});
                     image[nrow][ncol] = color;
+                    q.push({nrow,ncol});
                 }
             }
         }
