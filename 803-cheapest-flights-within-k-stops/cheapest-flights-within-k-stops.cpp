@@ -9,7 +9,7 @@ public:
         queue<pair<int,pair<int,int>>> q;
         vector<int> dis(n,INT_MAX);
 
-        // {stops,{node,cost}}
+        // {stops,node,dis}
         q.push({0,{src,0}});
         dis[src] = 0;
 
