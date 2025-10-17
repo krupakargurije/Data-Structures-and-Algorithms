@@ -6,33 +6,32 @@ public:
             adj[i[0]].push_back({i[1],i[2]});
         }
 
-        priority_queue<vector<int>, vector<vector<int>> , greater<vector<int>>> q;
-        vector<int> dis(n,INT_MAX);
+        // Min-heap: {cost, node, stops}
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> q;
+        q.push({0, src, 0});
 
-        // {stops,node,dis}
-        q.push({0,src,0});
-        dis[src] = 0;
+        vector<int> stopsArr(n, INT_MAX);
+        stopsArr[src] = 0;
 
         while(!q.empty()){
             auto it = q.top();
             q.pop();
-            int stops = it[0];
+            int cost = it[0];
             int node = it[1];
-            int cost = it[2];
+            int stop = it[2];
 
-            if(stops > k)continue;
+            if(node == dst) return cost;
+            if(stop > k || stop > stopsArr[node]) continue;
+
+            stopsArr[node] = stop;
+
             for(auto i : adj[node]){
                 int nNode = i.first;
                 int nCost = i.second;
-                
-                if(dis[nNode] > cost + nCost && stops <= k){
-                    dis[nNode] = cost + nCost;
-                    q.push({stops+1,nNode,cost + nCost});
-                }
+                q.push({cost + nCost, nNode, stop + 1});
             }
         }
 
-        if(dis[dst] == INT_MAX)return -1;
-        return dis[dst];
+        return -1;
     }
 };
