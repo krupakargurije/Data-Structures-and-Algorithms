@@ -6,19 +6,19 @@ public:
             adj[i[0]].push_back({i[1],i[2]});
         }
 
-        queue<pair<int,pair<int,int>>> q;
+        priority_queue<vector<int>, vector<vector<int>> , greater<vector<int>>> q;
         vector<int> dis(n,INT_MAX);
 
         // {stops,node,dis}
-        q.push({0,{src,0}});
+        q.push({0,src,0});
         dis[src] = 0;
 
         while(!q.empty()){
-            auto it = q.front();
+            auto it = q.top();
             q.pop();
-            int stops = it.first;
-            int node = it.second.first;
-            int cost = it.second.second;
+            int stops = it[0];
+            int node = it[1];
+            int cost = it[2];
 
             if(stops > k)continue;
             for(auto i : adj[node]){
@@ -27,7 +27,7 @@ public:
                 
                 if(dis[nNode] > cost + nCost && stops <= k){
                     dis[nNode] = cost + nCost;
-                    q.push({stops+1,{nNode,cost + nCost}});
+                    q.push({stops+1,nNode,cost + nCost});
                 }
             }
         }
