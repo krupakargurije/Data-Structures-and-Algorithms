@@ -29,6 +29,7 @@ public:
             }
         }
         
+        //return the maximum time that takes the signal to reach all nodes..
         int ans = 0;
         for(int i = 1;i<=n;i++){
             if(dis[i] == INT_MAX)return -1;
