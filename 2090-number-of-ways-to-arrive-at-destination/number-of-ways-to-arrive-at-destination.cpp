@@ -15,6 +15,7 @@ public:
 
         dis[0] = 0;
         ways[0] = 1;
+        //{cost or weight , node}
         pq.push({0, 0});
 
         while(!pq.empty()){
