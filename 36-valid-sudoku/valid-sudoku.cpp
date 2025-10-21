@@ -6,21 +6,17 @@ class Solution {
         char element = board[row][col];
         board[row][col] = '.';
 
-        //check row
         for(int j = 0;j<m;j++){
             if(board[row][j] != '.'){
                 if (board[row][j] == element) return false;
             }
         }
-
-        //check column
         for(int i = 0;i<n;i++){
             if(board[i][col] != '.'){
                 if (board[i][col] == element) return false;
             }
         }
 
-        //check 3 * 3 grid
         int startRow = (row / 3) * 3;
         int startCol = (col / 3) * 3;
         for (int i = startRow; i < startRow + 3; i++) {
@@ -44,7 +40,6 @@ public:
                 if(board[i][j] != '.'){
                     if(!helper(board,i,j))return false;
                 }
-                
             }
         }
         return true;
