@@ -15,8 +15,9 @@ public:
 
         ListNode* temp = new ListNode(0);
         temp->next = head;
-        
+
         ListNode* prev = temp;
+
         while(head && head->next){
             ListNode* first = head;
             ListNode* second = head->next;
@@ -26,7 +27,7 @@ public:
             prev->next = second;
 
             prev = first;
-            head = first->next; 
+            head = first->next;
         }
         return temp->next;
     }
