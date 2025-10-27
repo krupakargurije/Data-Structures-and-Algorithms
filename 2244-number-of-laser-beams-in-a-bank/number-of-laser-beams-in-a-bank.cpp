@@ -4,13 +4,12 @@ public:
         int ans = 0;
         int prevSum = 0;
         
-        for (auto& row : bank) {
+        for(auto it : bank){
             int currSum = 0;
-            for (char c : row) {
-                if (c == '1') currSum++;
+            for(int i : it){
+                if(i == '1')currSum++;
             }
-
-            if (currSum > 0) {
+            if(currSum > 0){
                 ans += currSum * prevSum;
                 prevSum = currSum;
             }
