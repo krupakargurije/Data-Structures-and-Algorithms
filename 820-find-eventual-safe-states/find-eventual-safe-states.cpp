@@ -30,7 +30,6 @@ public:
             }
         }
         sort(safe.begin(),safe.end());
-
         return safe;
     }
 };
