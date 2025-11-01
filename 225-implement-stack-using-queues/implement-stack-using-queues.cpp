@@ -2,7 +2,6 @@ class MyStack {
 public:
     vector<int> arr;
     MyStack() {
-        vector<int> arr;
     }
     
     void push(int x) {
