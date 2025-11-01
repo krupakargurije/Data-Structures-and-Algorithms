@@ -1,0 +1,35 @@
+class MyStack {
+public:
+    vector<int> arr;
+    MyStack() {
+        vector<int> arr;
+    }
+    
+    void push(int x) {
+        arr.push_back(x);
+    }
+    
+    int pop() {
+        int a = arr[arr.size()-1];
+        arr.pop_back();
+        return a;
+    }
+    
+    int top() {
+        return arr[arr.size()-1];
+    }
+    
+    bool empty() {
+        if(arr.size())return false;
+        return true;
+    }
+};
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack* obj = new MyStack();
+ * obj->push(x);
+ * int param_2 = obj->pop();
+ * int param_3 = obj->top();
+ * bool param_4 = obj->empty();
+ */
