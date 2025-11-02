@@ -7,10 +7,12 @@ public:
         for (auto it : guards) {
             int row = it[0], col = it[1];
             grid[row][col] = 'G';
+            vis[it[0]][it[1]] = 1;
         }
         for (auto it : walls) {
             int row = it[0], col = it[1];
             grid[row][col] = 'W';
+            vis[it[0]][it[1]] = 1;
         }
 
         vector<pair<int, int>> dirs = {{-1,0},{1,0},{0,-1},{0,1}};
@@ -28,8 +30,8 @@ public:
             }
         }
 
-        for (auto it : guards) vis[it[0]][it[1]] = 1;
-        for (auto it : walls) vis[it[0]][it[1]] = 1;
+        // for (auto it : guards) vis[it[0]][it[1]] = 1;
+        // for (auto it : walls) vis[it[0]][it[1]] = 1;
 
         int ans = 0;
         for (int i = 0; i < m; i++) {
