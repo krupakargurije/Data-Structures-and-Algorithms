@@ -18,9 +18,11 @@ public:
         vector<pair<int, int>> dirs = {{-1,0},{1,0},{0,-1},{0,1}};
 
         for (auto it : guards) {
-            int r = it[0], c = it[1];
+            int r = it[0];
+            int c = it[1];
             for (auto [dr, dc] : dirs) {
-                int nr = r + dr, nc = c + dc;
+                int nr = r + dr;
+                int nc = c + dc;
                 while (nr >= 0 && nr < m && nc >= 0 && nc < n &&
                        grid[nr][nc] != 'W' && grid[nr][nc] != 'G') {
                     vis[nr][nc] = 1;
