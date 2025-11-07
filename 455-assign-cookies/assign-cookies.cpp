@@ -6,6 +6,7 @@ public:
 
         sort(g.begin(),g.end());
         sort(s.begin(),s.end());
+        
         int ans = 0,j = 0,i = 0;
         
         while(i < n && j < m){
