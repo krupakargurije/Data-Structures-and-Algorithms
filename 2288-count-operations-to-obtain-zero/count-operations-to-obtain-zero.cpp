@@ -1,18 +1,16 @@
 class Solution {
 public:
-    int countOperations(int num1, int num2) {
-        if(num1 == 0 || num2 == 0)return 0;
+    int countOperations(int n, int m) {
+        if(n == 0 || m == 0)return 0;
         int ans = 0;
-        while(num1|| num2){
-            if(num1 == num2){
-                return ans += 1;
-            }
-            else if(num1 > num2){
-                num1 -= num2;
+        while(n || m){
+            if(n == m)return ans + 1;
+            else if(n > m){
+                n -= m;
                 ans++;
             }
             else{
-                num2 -= num1;
+                m -= n;
                 ans++;
             }
         }
