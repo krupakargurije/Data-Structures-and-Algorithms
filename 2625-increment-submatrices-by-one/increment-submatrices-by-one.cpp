@@ -1,20 +1,39 @@
 class Solution {
 public:
     vector<vector<int>> rangeAddQueries(int n, vector<vector<int>>& queries) {
-        vector<vector<int>> nums(n,vector<int>(n,0));
+        vector<vector<int>> diff(n + 1, vector<int>(n + 1, 0));
 
-        for(auto it : queries){
-            int row1 = it[0];
-            int col1 = it[1];
-            int row2 = it[2];
-            int col2 = it[3];
+        // Apply difference array updates
+        for (auto &q : queries) {
+            int r1 = q[0], c1 = q[1];
+            int r2 = q[2], c2 = q[3];
 
-            for(int i = row1;i<=row2;i++){
-                for(int j = col1;j<= col2;j++){
-                    nums[i][j]++;
-                }
+            diff[r1][c1] += 1;
+            if (c2 + 1 < n) diff[r1][c2 + 1] -= 1;
+            if (r2 + 1 < n) diff[r2 + 1][c1] -= 1;
+            if (r2 + 1 < n && c2 + 1 < n) diff[r2 + 1][c2 + 1] += 1;
+        }
+
+        // Build prefix sum over rows
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < n; j++) {
+                diff[i][j] += diff[i][j - 1];
             }
         }
-        return nums;
+
+        // Build prefix sum over columns
+        for (int j = 0; j < n; j++) {
+            for (int i = 1; i < n; i++) {
+                diff[i][j] += diff[i - 1][j];
+            }
+        }
+
+        // Trim extra row/column
+        vector<vector<int>> ans(n, vector<int>(n));
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++)
+                ans[i][j] = diff[i][j];
+
+        return ans;
     }
 };
