@@ -4,7 +4,7 @@ public:
         vector<int> ans;
         int n = nums.size();
         int m =  nums[0].size();
-        vector<vector<int>> vis(n,vector<int>(m,0));
+        // vector<vector<int>> vis(n,vector<int>(m,0));
 
         int rowdir[] = {0,1,0,-1};
         int coldir[] = {1,0,-1,0};
@@ -13,13 +13,13 @@ public:
 
         for (int k = 0; k < n * m; k++) {
             ans.push_back(nums[r][c]);
-            vis[r][c] = 1;
+            nums[r][c] = INT_MIN;
 
             int nr = r + rowdir[dir];
             int nc = c + coldir[dir];
 
             // If out of bounds or visited → turn right
-            if (nr < 0 || nr >= n || nc < 0 || nc >= m || vis[nr][nc]) {
+            if (nr < 0 || nr >= n || nc < 0 || nc >= m || nums[nr][nc] == INT_MIN) {
                 dir = (dir + 1) % 4;
                 nr = r + rowdir[dir];
                 nc = c + coldir[dir];
