@@ -14,7 +14,6 @@ public:
             }
             dp = cur;
         }
-        
         return dp[0];
     }
 };
