@@ -4,7 +4,7 @@ using namespace std;
 class Solution {
 public:
     int numberOfPaths(vector<vector<int>>& grid, int k) {
-        const int MOD = 1'000'000'007;
+        const int MOD = 1e9 + 7;
         int n = grid.size();
         if (n == 0) return 0;
         int m = grid[0].size();
