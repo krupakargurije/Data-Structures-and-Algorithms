@@ -1,20 +1,20 @@
 class Solution {
-    private:
-    int helper(vector<int>& nums,vector<int>& dp,int idx){
-        if(idx == 0)return nums[0];
-        if(idx < 0)return 0;
-
-        if(dp[idx] != -1)return dp[idx];
-
-        int pic = nums[idx] + helper(nums,dp,idx-2);
-        int nonpic = 0 + helper(nums,dp,idx-1);
-
-        return dp[idx] = max(pic,nonpic);
-    }
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
-        vector<int> dp(n+1,-1);
-        return helper(nums,dp,n-1);
+        if(n == 1)return nums[0];
+        int prev1 = max(nums[0],nums[1]);
+        int prev2 = nums[0];
+        
+        for(int i = 2;i<n;i++){
+            int pic = nums[i] + prev2;
+            int nonpic = prev1;
+
+            int curr = max(pic,nonpic);
+
+            prev2 = prev1;
+            prev1 = curr;
+        }
+        return prev1;
     }
 };
