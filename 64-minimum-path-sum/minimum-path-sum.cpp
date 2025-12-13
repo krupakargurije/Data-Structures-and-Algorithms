@@ -1,54 +1,20 @@
 class Solution {
-public:
-    vector<vector<pair<int, int>>> gridToAdjList(vector<vector<int>>& grid) {
-        int n = grid.size(), m = grid[0].size();
-        vector<vector<pair<int, int>>> adj(n * m);
-        int delRow[] = {0, 1};
-        int delCol[] = {1, 0};
+    private:
+    int helper(vector<vector<int>>& arr,int row,int col,vector<vector<int>>& dp){
+        if(row < 0 || col < 0)return 1e9;
+        if(dp[row][col] != -1)return dp[row][col];
+        if(row == 0 && col == 0)return dp[0][0] = arr[0][0];
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                int u = i * m + j;
-                for (int k = 0; k < 2; k++) {
-                    int ni = i + delRow[k];
-                    int nj = j + delCol[k];
-                    if (ni >= 0 && ni < n && nj >= 0 && nj < m) {
-                        int v = ni * m + nj;
-                        int w = grid[ni][nj];
-                        adj[u].push_back({v, w});
-                    }
-                }
-            }
-        }
-        return adj;
+        int up = helper(arr,row-1,col,dp);
+        int left = helper(arr,row,col - 1,dp);
+
+        return dp[row][col] = arr[row][col] + min(up, left);
     }
-
-    int minPathSum(vector<vector<int>>& grid) {
-        int n = grid.size(),m=grid[0].size();
-        vector<vector<pair<int,int>>> adj = gridToAdjList(grid);
-
-        set<pair<int,int>> st;
-        vector<int> dis(n*m,INT_MAX);
-        dis[0] = grid[0][0];
-        st.insert({dis[0],0});
-
-        while(!st.empty()){
-            auto it = *(st.begin());
-            int d = it.first;
-            int node = it.second;
-            st.erase(it);
-
-            for(auto& i : adj[node]){
-                int adjNode = i.first;
-                int wt = i.second;
-
-                if(d + wt < dis[adjNode]){
-                    if(dis[adjNode] != INT_MAX)st.erase({dis[adjNode],adjNode});
-                    dis[adjNode] = d + wt;
-                    st.insert({dis[adjNode],adjNode});
-                }
-            }
-        }
-        return dis[n*m -1];
+public:
+    int minPathSum(vector<vector<int>>& arr) {
+        int n = arr.size();
+        int m = arr[0].size();
+        vector<vector<int>> dp(n,vector<int>(m,-1));
+        return helper(arr,n-1,m-1,dp);
     }
 };
