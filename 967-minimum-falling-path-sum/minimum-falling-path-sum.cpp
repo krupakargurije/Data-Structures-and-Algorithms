@@ -8,7 +8,7 @@ public:
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                int up = (i > 0)?prev[j]:0;
+                int up = prev[j];
                 int left = (j > 0) ? prev[j - 1] : 1e9;
                 int right = (j < m - 1) ? prev[j + 1] : 1e9;
 
