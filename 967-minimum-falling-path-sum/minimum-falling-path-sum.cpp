@@ -6,14 +6,9 @@ public:
 
         vector<int>prev(m,0),curr(m,0);
 
-        // Base case: first row
-        for (int j = 0; j < m; j++) {
-            prev[j] = arr[0][j];
-        }
-
-        for (int i = 1; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                int up = (i > 0)?prev[j]:1e9;
+                int up = (i > 0)?prev[j]:0;
                 int left = (j > 0) ? prev[j - 1] : 1e9;
                 int right = (j < m - 1) ? prev[j + 1] : 1e9;
 
