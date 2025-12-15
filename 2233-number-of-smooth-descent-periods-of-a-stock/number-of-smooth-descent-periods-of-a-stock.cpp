@@ -1,22 +1,19 @@
 class Solution {
-    private:
-    long long helper(vector<int>& arr,int i,vector<long long>& dp){
-        if(i >= arr.size()-1)return 1;
-        if(dp[i] != -1)return dp[i];
-
-        if(arr[i+1] == arr[i]-1){
-            return dp[i] = 1 + helper(arr,i+1,dp);
-        }
-        return dp[i] = 1;
-    }
 public:
     long long getDescentPeriods(vector<int>& arr) {
         int n = arr.size();
-        long long ans = 0;
-        vector<long long>dp(n,-1);
+        if(n == 1)return 1;
+        vector<long long>dp(n,0);
+        dp[0] = 1;
+        long long ans = 1LL;
         
-        for(int i = 0;i<n;i++){
-            ans += helper(arr,i,dp);
+        for(int i = 1;i<n;i++){
+            if(arr[i] == arr[i-1]-1){
+                dp[i] = dp[i-1] + 1;
+            }else{
+                dp[i] = 1;
+            }
+            ans += dp[i];
         }
         return ans;
     }
