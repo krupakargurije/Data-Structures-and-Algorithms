@@ -10,7 +10,6 @@ public:
         }
 
         vector<int> time(n, INT_MAX);
-
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>> pq;
 
         time[0] = 0;
