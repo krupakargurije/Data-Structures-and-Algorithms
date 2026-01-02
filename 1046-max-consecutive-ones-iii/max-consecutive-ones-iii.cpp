@@ -6,9 +6,6 @@ public:
         int left  = 0,zeroCount = 0;
 
         for(int right = 0;right < n ;right++){
-            // if(nums[right] == 1){
-            //     continue;
-            // }
             if(nums[right] == 0)zeroCount++;
 
             while(zeroCount > k){
