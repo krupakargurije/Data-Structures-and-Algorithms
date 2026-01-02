@@ -4,12 +4,9 @@ public:
         int n = nums.size();
         unordered_map<int,int>mp;
 
-        for(int i : nums)mp[i]++;
-
-        int ans;
-
-        for(auto it : nums){
-            if(mp[it] == n/2)return it;
+        for(int i : nums){
+            mp[i]++;
+            if(mp[i] == n/2)return i;
         }
         return 0;
     }
