@@ -1,33 +1,44 @@
 class Solution {
 public:
-    int dfs(int r, int c, vector<vector<int>>& arr) {
-        int n = arr.size();
-        int m = arr[0].size();
-
-        // boundary or water
-        if (r < 0 || r >= n || c < 0 || c >= m || arr[r][c] == 0)
-            return 0;
-
-        arr[r][c] = 0;
-        int area = 1;
-
-        area += dfs(r - 1,c,arr);
-        area += dfs(r + 1,c,arr);
-        area += dfs(r,c - 1,arr);
-        area += dfs(r,c + 1,arr);
-
-        return area;
-    }
-
     int maxAreaOfIsland(vector<vector<int>>& arr) {
         int n = arr.size();
         int m = arr[0].size();
         int ans = 0;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j<m; j++) {
-                if (arr[i][j] == 1) {
-                    ans = max(ans,dfs(i, j, arr));
+        vector<vector<int>> vis(n, vector<int>(m, 0));
+
+        int delr[4] = {-1, 0, 1, 0};
+        int delc[4] = {0, 1, 0, -1};
+
+        for(int i = 0;i < n;i++){
+            for(int j = 0;j < m;j++){
+                if(arr[i][j] == 1 && !vis[i][j]){
+                    int area = 0;
+                    queue<pair<int,int>> q;
+
+                    q.push({i, j});
+                    vis[i][j] = 1;
+
+                    while(!q.empty()){
+                        auto [row, col] = q.front();
+                        q.pop();
+                        area++;
+
+                        for(int d = 0; d < 4; d++){
+                            int nrow = row + delr[d];
+                            int ncol = col + delc[d];
+
+                            if(nrow >= 0 && nrow < n &&
+                               ncol >= 0 && ncol < m &&
+                               arr[nrow][ncol] == 1 &&
+                               !vis[nrow][ncol]){
+
+                                vis[nrow][ncol] = 1;
+                                q.push({nrow, ncol});
+                            }
+                        }
+                    }
+                    ans = max(ans, area);
                 }
             }
         }
