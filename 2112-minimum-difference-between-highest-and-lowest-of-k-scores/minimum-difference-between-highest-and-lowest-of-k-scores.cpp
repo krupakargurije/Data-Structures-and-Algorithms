@@ -10,7 +10,6 @@ public:
         for (int i = 0; i + k - 1 < n; i++) {
             ans = min(ans, nums[i + k - 1] - nums[i]);
         }
-
         return ans;
     }
 };
