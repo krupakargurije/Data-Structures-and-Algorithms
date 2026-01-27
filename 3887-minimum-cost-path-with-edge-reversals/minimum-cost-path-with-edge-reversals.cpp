@@ -33,7 +33,6 @@ public:
                 }
             }
         }
-
         return (dis[n-1] == INT_MAX) ? -1 : dis[n-1];
     }
 };
