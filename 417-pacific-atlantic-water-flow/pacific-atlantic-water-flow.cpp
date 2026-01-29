@@ -38,22 +38,18 @@ public:
 
         // Left & Right borders
         for (int i = 0; i < n; i++) {
-            // visp[i][0] = true;
             pacific[i][0] = true;
             dfs(arr, pacific, i, 0, visp);
 
-            // visa[i][m - 1] = true;
             atlantic[i][m - 1] = true;
             dfs(arr, atlantic, i, m - 1, visa);
         }
 
         // Top & Bottom borders
         for (int j = 0; j < m; j++) {
-            // visp[0][j] = true;
             pacific[0][j] = true;
             dfs(arr, pacific, 0, j, visp);
 
-            // visa[n - 1][j] = true;
             atlantic[n - 1][j] = true;
             dfs(arr, atlantic, n - 1, j, visa);
         }
