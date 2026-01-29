@@ -8,6 +8,7 @@ private:
              int r, int c,
              vector<vector<bool>>& vis) {
 
+        vis[r][c] = true;
         int n = arr.size();
         int m = arr[0].size();
 
@@ -19,7 +20,6 @@ private:
                 !vis[nr][nc] &&
                 arr[nr][nc] >= arr[r][c]) {
 
-                vis[nr][nc] = true;
                 valid[nr][nc] = true;
                 dfs(arr, valid, nr, nc, vis);
             }
@@ -38,22 +38,22 @@ public:
 
         // Left & Right borders
         for (int i = 0; i < n; i++) {
-            visp[i][0] = true;
+            // visp[i][0] = true;
             pacific[i][0] = true;
             dfs(arr, pacific, i, 0, visp);
 
-            visa[i][m - 1] = true;
+            // visa[i][m - 1] = true;
             atlantic[i][m - 1] = true;
             dfs(arr, atlantic, i, m - 1, visa);
         }
 
         // Top & Bottom borders
         for (int j = 0; j < m; j++) {
-            visp[0][j] = true;
+            // visp[0][j] = true;
             pacific[0][j] = true;
             dfs(arr, pacific, 0, j, visp);
 
-            visa[n - 1][j] = true;
+            // visa[n - 1][j] = true;
             atlantic[n - 1][j] = true;
             dfs(arr, atlantic, n - 1, j, visa);
         }
@@ -61,8 +61,7 @@ public:
         vector<vector<int>> ans;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (pacific[i][j] && atlantic[i][j])
-                    ans.push_back({i, j});
+                if (pacific[i][j] && atlantic[i][j])ans.push_back({i, j});
             }
         }
         return ans;
