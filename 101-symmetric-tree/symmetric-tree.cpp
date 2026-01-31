@@ -16,6 +16,7 @@ public:
         return root1->val == root2->val && helper(root1->left,root2->right) && helper(root1->right,root2->left);
     }
     bool isSymmetric(TreeNode* root) {
+        if(root->left == NULL || root->right == NULL)return root->left == root->right;
         return helper(root->left,root->right);
     }
 };
