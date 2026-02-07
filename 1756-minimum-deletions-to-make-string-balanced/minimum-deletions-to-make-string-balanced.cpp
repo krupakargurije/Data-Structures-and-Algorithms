@@ -1,15 +1,16 @@
 class Solution {
 public:
     int minimumDeletions(string s) {
-        int res = 0, b = 0;
+        int n = s.length();
 
-        for (auto& c : s) {
-            if (~c & 1) b++;
-            else if (b) {
-                res++;
-                b--;
+        int bc = 0;
+        int ans = 0;
+        for(int i = 0;i<n;i++){
+            if(s[i] == 'b')bc++;
+            else{
+                ans = min(ans+1,bc);
             }
         }
-        return res;
+        return ans;
     }
 };
