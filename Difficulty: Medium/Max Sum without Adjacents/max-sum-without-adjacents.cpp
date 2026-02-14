@@ -1,25 +1,22 @@
 // User function template for C++
 class Solution {
-private:
-    long long helper(vector<int>& arr, vector<long long>& dp, int idx){
+    private:
+    int helper(vector<int>& arr,int idx,vector<int>& dp){
+        if(idx < 0)return 0;
+        if(idx == 0)return arr[0];
         
-        if(idx == 0)   return arr[0];
-        if(idx < 0)    return 0;
-
-        if(dp[idx] != -1) 
-            return dp[idx];
-
-        long long pick = arr[idx] + helper(arr, dp, idx - 2);
-        long long nonPick = helper(arr, dp, idx - 1);
-
-        return dp[idx] = max(pick, nonPick);
+        if(dp[idx] != -1)return dp[idx];
+        
+        int pic = helper(arr,idx-2,dp) + arr[idx];
+        int nonpic = helper(arr,idx - 1,dp);
+        
+        return dp[idx] = max(pic,nonpic);
     }
-
-public:
+  public:
+    // calculate the maximum sum with out adjacent
     int findMaxSum(vector<int>& arr) {
         int n = arr.size();
-        vector<long long> dp(n, -1);  // <-- FIXED
-
-        return (int)helper(arr, dp, n - 1);
+        vector<int>dp(n,-1);
+        return helper(arr,n-1,dp);
     }
 };
