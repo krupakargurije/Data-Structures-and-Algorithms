@@ -16,7 +16,7 @@ public:
     int minFallingPathSum(vector<vector<int>>& nums) {
         int n = nums.size();
         int m = nums[0].size();
-        int ans = INT_MAX;
+        int ans = 1e9;
 
         vector<vector<int>>dp(n,vector<int>(m,1e9));
 
