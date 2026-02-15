@@ -1,11 +1,24 @@
 class Solution {
+    private:
+    int helper(vector<vector<int>>& nums,int r,int c,vector<vector<int>>& dp){
+        if(r == nums.size() - 1)return nums[r][c];
+
+        if(dp[r][c] != INT_MAX)return dp[r][c];
+
+        int down = nums[r][c] + helper(nums,r+1,c,dp);
+        int rightdown = nums[r][c] + helper(nums,r+1,c+1,dp);
+
+        return dp[r][c] = min(down,rightdown);
+    }
 public:
     int minimumTotal(vector<vector<int>>& nums) {
-        for(int i = nums.size()-2;i >= 0;i--){
-            for(int j = 0;j<nums[i].size();j++){
-                nums[i][j] += min(nums[i+1][j],nums[i+1][j+1]);
-            }
+        int n = nums.size();
+        vector<vector<int>> dp(n);
+
+        for(int i = 0; i < n; i++){
+            dp[i] = vector<int>(nums[i].size(), INT_MAX);
         }
-        return nums[0][0];
+
+        return helper(nums,0,0,dp);
     }
 };
