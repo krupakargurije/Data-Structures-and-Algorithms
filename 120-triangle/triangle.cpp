@@ -1,7 +1,8 @@
 class Solution {
     private:
     int helper(vector<vector<int>>& nums,int r,int c,vector<vector<int>>& dp){
-        if(r == nums.size() - 1)return nums[r][c];
+        if(r >= nums.size() || c >= nums[r].size())return INT_MAX;
+        if(r == nums.size() - 1 && c < nums[r].size())return nums[r][c];
 
         if(dp[r][c] != INT_MAX)return dp[r][c];
 
