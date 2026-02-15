@@ -1,17 +1,4 @@
 class Solution {
-    private:
-    int helper(vector<vector<int>>& nums,int r,int c,vector<vector<int>>& dp){
-        if(r < 0 || c < 0 || c >= nums[0].size())return 1e9;
-        if(r == 0)return nums[r][c];
-
-        if(dp[r][c] != 1e9)return dp[r][c];
-
-        int left = nums[r][c] + helper(nums,r-1,c-1,dp);
-        int top = nums[r][c] + helper(nums,r-1,c,dp);
-        int right = nums[r][c] + helper(nums,r-1,c+1,dp);
-
-        return dp[r][c] = min({left,top,right});
-    }
 public:
     int minFallingPathSum(vector<vector<int>>& nums) {
         int n = nums.size();
@@ -20,9 +7,17 @@ public:
 
         vector<vector<int>>dp(n,vector<int>(m,1e9));
 
-        for(int j = 0;j < m;j++){
-            ans = min(ans,helper(nums,n-1,j,dp));
+        for(int i = 0;i<n;i++)dp[0][i] = nums[0][i];
+
+        for(int i = 1;i<n;i++){
+            for(int j = 0;j<m;j++){
+                int left = (j > 0) ? dp[i-1][j-1] : 1e9;
+                int top = dp[i-1][j];
+                int right = (j < m-1) ? dp[i-1][j+1] : 1e9;
+
+                dp[i][j] =nums[i][j] + min({left,top,right});
+            }
         }
-        return ans;
+        return *min_element(dp[n-1].begin(),dp[n-1].end());
     }
 };
