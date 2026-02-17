@@ -31,6 +31,7 @@ public:
             for(auto del : adj[nd]){
                 double nwt = wt * del.second;
                 int node = del.first;
+                
                 if(nwt > dis[node]){
                     dis[node] = nwt;
                     pq.push({dis[node] , node});
