@@ -1,20 +1,27 @@
 class Solution {
+    private:
+    bool helper(vector<int>& nums,int target,int idx,int curr,vector<vector<int>> &dp){
+        if(curr == target)return true;
+        if(idx < 0 || curr > target)return false;
+        if(dp[idx][curr] != -1)return dp[idx][curr];
+
+        bool nonPic = helper(nums,target,idx - 1,curr,dp);
+        
+        bool pic = false;
+        if(curr + nums[idx] <= target)
+            pic = helper(nums,target,idx - 1,curr + nums[idx],dp);
+
+        return dp[idx][curr] = pic || nonPic;
+    }
 public:
     bool canPartition(vector<int>& nums) {
+        int n = nums.size();
         int totalSum = 0;
-        for (int num : nums) totalSum += num;
+        for(int i : nums)totalSum += i;
+        int tar = totalSum /2;
+        if(totalSum % 2 != 0)return false;
+        vector<vector<int>> dp(n ,vector<int>(tar + 1 , -1));
 
-        if (totalSum % 2 != 0) return false;
-
-        int targetSum = totalSum / 2;
-        vector<bool> dp(targetSum + 1, false);
-        dp[0] = true;
-        for (int num : nums) {
-            for (int currSum = targetSum; currSum >= num; --currSum) {
-                dp[currSum] = dp[currSum] || dp[currSum - num];
-                if (dp[targetSum]) return true;
-            }
-        }
-        return dp[targetSum];
+        return helper(nums,tar,n - 1,0,dp);
     }
 };
