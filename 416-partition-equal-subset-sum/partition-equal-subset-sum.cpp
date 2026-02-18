@@ -8,34 +8,24 @@ public:
         int tar = totalSum /2;
         if(totalSum % 2 != 0)return false;
 
-        vector<vector<bool>> dp(n ,vector<bool>(tar + 1 , 0));
-
-        for(int i = 0;i< n;i++)dp[i][0] = true;
+        vector<bool> curr(tar + 1, false) , prev(tar + 1, false);
+        prev[0] = true;
 
         if(nums[0] <= tar)
-            dp[0][nums[0]] = true;
+            prev[nums[0]] = true;
 
         for(int idx = 1;idx<n;idx++){
             for(int target = 1;target <= tar;target++){
-                bool nonPic = dp[idx - 1][target];
+                bool nonPic = prev[target];
 
                 bool pic = false;
                 if(nums[idx] <= target)
-                    pic = dp[idx - 1][target - nums[idx]];
+                    pic = prev[target - nums[idx]];
                     
-                dp[idx][target] = pic || nonPic;
+                curr[target] = pic || nonPic;
             }
+            prev = curr;
         }
-        return dp[n-1][tar];
+        return prev[tar];
     }
 };
-
-
-
-
-
-
-
-
-
-
