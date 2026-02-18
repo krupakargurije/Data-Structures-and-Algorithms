@@ -3,8 +3,7 @@ public:
     bool hasAlternatingBits(int n) {
         string s = "";
         while( n > 0){
-            int temp = n & 1;
-            s += temp + '0';
+            s += (n & 1) + '0';
             n >>= 1;
         }
 
