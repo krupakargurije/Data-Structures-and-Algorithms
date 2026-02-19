@@ -21,7 +21,7 @@ class Solution {
 public:
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         ListNode* node = head;
-
+        
         while(node->next){
             int a = node->val;
             int b = node->next->val;
