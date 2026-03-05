@@ -3,12 +3,12 @@ public:
     int minOperations(string s) {
         int n = s.length();
 
-        int one = 0, zero = 0;
+        int zero = 0,one = 0;
 
-        for(int i = 0; i < n; i++) {
-            if(s[i] == (i % 2 == 0 ? '1' : '0')) one++;
-            if(s[i] == (i % 2 == 0 ? '0' : '1')) zero++;
+        for(int i = 0;i<n;i++){
+            if(s[i] == (i % 2 == 0 ? '0' : '1'))zero++;
+            if(s[i] == (i % 2 == 0 ? '1' : '0'))one++;
         }
-        return min(one, zero);
+        return min(zero , one);
     }
 };
