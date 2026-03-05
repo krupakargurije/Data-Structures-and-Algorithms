@@ -1,7 +1,6 @@
 class Solution {
     private:
     int helper(vector<int> &arr , int target , int idx ,vector<vector<int>> &dp){
-        if(idx < 0)return 0;
         if(idx == 0){
             if(target == 0 && arr[0] == 0)return 2;
             if(target == 0 || arr[0] == target)return 1;
