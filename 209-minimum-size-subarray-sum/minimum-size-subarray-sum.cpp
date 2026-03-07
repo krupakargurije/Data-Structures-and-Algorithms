@@ -6,9 +6,10 @@ public:
         int curSum = 0;
 
         for (int right = 0; right < nums.size(); right++) {
+            if(nums[right] == target)return 1;
             curSum += nums[right];
 
-            while (curSum >= target) {
+            while (curSum >= target){
                 minLen = min(minLen , right - left + 1);
                 curSum -= nums[left++];
             }
