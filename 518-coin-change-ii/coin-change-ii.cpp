@@ -1,24 +1,26 @@
+using ll = unsigned long long;
 class Solution {
-    private:
-    int helper(int amount , vector<int> &coins,int idx ,vector<vector<int>> &dp){
-        if(idx == 0){
-            if(amount % coins[0] == 0) return 1;
-            return 0;
-        }
-
-        if(dp[idx][amount] != -1)return dp[idx][amount];
-
-        int nonpic = helper(amount , coins , idx - 1 ,dp);
-        int pic = 0;
-        if(coins[idx] <= amount){
-            pic = helper(amount - coins[idx] , coins , idx ,dp);
-        }
-        return dp[idx][amount] = pic + nonpic;
-    }
 public:
-    int change(int amount, vector<int>& coins) {
+    int change(int money, vector<int>& coins) {
         int n = coins.size();
-        vector<vector<int>> dp(n , vector<int> (amount + 1 , -1));
-        return helper(amount , coins , n - 1, dp);
+
+        vector<vector<ll>> dp(n , vector<ll>(money + 1 , 0));
+
+        for(int i = 0; i < n; i++)
+            dp[i][0] = 1;
+
+        for(int idx = 0; idx < n; idx++){
+            for(int amount = 1; amount <= money; amount++){
+
+                ll nonpick = (idx > 0) ? dp[idx-1][amount] : 0;
+
+                ll pick = 0;
+                if(coins[idx] <= amount)
+                    pick = dp[idx][amount - coins[idx]];
+
+                dp[idx][amount] = pick + nonpick;
+            }
+        }
+        return (int)dp[n-1][money];
     }
 };
