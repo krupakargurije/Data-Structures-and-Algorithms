@@ -2,8 +2,7 @@ class Solution {
     private:
     int helper(vector<int>& val, vector<int>& wt , int idx, int capacity, vector<vector<int>> &dp){
         if(idx == 0){
-            if(wt[0] == 0) return 0;
-            return (capacity / wt[0]) * val[0];
+            return (wt[0]) ? ((capacity / wt[0]) * val[0]) : 0;
         }
         
         
