@@ -1,55 +1,43 @@
 using ll = long long;
-
+int MOD = 1e9 + 7;
 class Solution {
 public:
     int maxProductPath(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        ll MOD = 1e9 + 7;
-
-        // dp[i][j] = {max product, min product}
-        vector<vector<pair<ll,ll>>> dp(
-            n, vector<pair<ll,ll>>(m)
-        );
-
+        //dp (max_val , min_val )
+        vector<vector<pair< ll , ll >>> dp(n , vector<pair <ll , ll>> (m , { LLONG_MIN , LLONG_MAX}));
         dp[0][0] = {grid[0][0], grid[0][0]};
 
-        // first row
-        for(int j = 1; j < m; j++){
-            ll val = grid[0][j];
-            ll mx = dp[0][j-1].first * val;
-            ll mn = dp[0][j-1].second * val;
-            dp[0][j] = {mx, mn};
+        for(int r = 1;r < n ;r++){
+            ll val = grid[r][0];
+            ll mx = dp[r - 1][0].first * val;
+            ll mn = dp[r - 1][0].second * val;
+            dp[r][0] = {mx, mn};
         }
 
-        // first column
-        for(int i = 1; i < n; i++){
-            ll val = grid[i][0];
-            ll mx = dp[i-1][0].first * val;
-            ll mn = dp[i-1][0].second * val;
-            dp[i][0] = {mx, mn};
+        for(int c = 1;c<m;c++){
+            ll val = grid[0][c];
+            ll mx = dp[0][c-1].first * val;
+            ll mn = dp[0][c-1].second * val;
+            dp[0][c] = {mx, mn};
         }
 
-        // rest of grid
-        for(int i = 1; i < n; i++){
-            for(int j = 1; j < m; j++){
-                ll val = grid[i][j];
+        for(int r = 1;r<n;r++){
+            for(int c = 1;c<m;c++){
+                ll val = grid[r][c];
+                ll mx = LLONG_MIN , mn = LLONG_MAX;
 
-                ll a = dp[i-1][j].first;   // top max
-                ll b = dp[i-1][j].second;  // top min
-                ll c = dp[i][j-1].first;   // left max
-                ll d = dp[i][j-1].second;  // left min
+                auto left = dp[r][c - 1];
+                auto top = dp[r - 1][c];
 
-                ll mx = max({a*val, b*val, c*val, d*val});
-                ll mn = min({a*val, b*val, c*val, d*val});
+                mx = max({ left.first * val, left.second * val, top.first * val, top.second * val});
+                mn = min({ left.first * val, left.second * val, top.first * val, top.second * val});
 
-                dp[i][j] = {mx, mn};
+                dp[r][c] = {mx , mn};
             }
         }
-
-        ll ans = dp[n-1][m-1].first;
-
-        if(ans < 0) return -1;
-        return ans % MOD;
+        if(dp[n-1][m-1].first < 0)return -1;
+        return dp[n-1][m-1].first % MOD;
     }
 };
