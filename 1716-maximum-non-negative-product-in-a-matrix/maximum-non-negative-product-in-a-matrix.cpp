@@ -1,46 +1,40 @@
 using ll = long long;
+int MOD = 1e9 + 7;
 class Solution {
+    pair<ll , ll> helper(vector<vector<int>>& grid , int r , int c , vector<vector<pair<ll , ll >>>& dp){
+        if(r < 0 || c < 0)return { LLONG_MIN , LLONG_MAX};
+        if(r == 0 && c == 0)return {grid[0][0] , grid[0][0]};
+
+        if(dp[r][c].first != LLONG_MIN)return dp[r][c];
+
+        auto left = helper(grid , r , c - 1 , dp);
+        auto top = helper(grid , r - 1 , c , dp);
+
+        ll val = grid[r][c];
+        ll mx = LLONG_MIN;
+        ll mn = LLONG_MAX;
+
+        if(left.first != LLONG_MIN){
+            mx = max(mx, max(left.first * val, left.second * val));
+            mn = min(mn, min(left.first * val, left.second * val));
+        }
+
+        if(top.first != LLONG_MIN){
+            mx = max(mx, max(top.first * val, top.second * val));
+            mn = min(mn, min(top.first * val, top.second * val));
+        }
+
+        return dp[r][c] = {mx , mn};
+    }
 public:
     int maxProductPath(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        int MOD = 1e9 + 7;
+        //dp (max_val , min_val )
+        vector<vector<pair< ll , ll >>> dp(n , vector<pair <ll , ll>> (m , { LLONG_MIN , LLONG_MAX}));
 
-        queue<pair<int , int>>q;
-        vector<vector<ll>> maxDis(n , vector<ll> (m , LLONG_MIN));
-        vector<vector<ll>> minDis(n , vector<ll> (m , LLONG_MAX));
-
-        q.push({ 0 , 0});
-        maxDis[0][0] = minDis[0][0] = grid[0][0];
-        int delRow[] = {0 , 1};
-        int delCol[] = {1 , 0};
-
-        while(!q.empty()){
-            auto it = q.front();
-            q.pop();
-
-            int r = it.first;
-            int c = it.second;
-
-            for(int i = 0;i<2;i++){
-                int nrow = r + delRow[i];
-                int ncol = c + delCol[i];
-
-                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m){
-                    ll val = grid[nrow][ncol];
-
-                    ll mx = max(maxDis[r][c] * val , minDis[r][c] * val);
-                    ll mn = min(maxDis[r][c] * val , minDis[r][c] * val);
-
-                    if(mx > maxDis[nrow][ncol] || mn < minDis[nrow][ncol]){
-                        maxDis[nrow][ncol] = max(maxDis[nrow][ncol] , mx);
-                        minDis[nrow][ncol] = min(minDis[nrow][ncol] , mn);
-                        q.push({nrow , ncol});
-                    }
-                }
-            }
-        }
-        if(maxDis[n-1][m-1] < 0)return -1;
-        return maxDis[n-1][m-1] % MOD;
+        auto ans =  helper(grid , n-1 , m-1 , dp);
+        if(ans.first < 0)return -1;
+        return ans.first % MOD;
     }
 };
