@@ -1,40 +1,55 @@
 using ll = long long;
-int MOD = 1e9 + 7;
+
 class Solution {
-    pair<ll , ll> helper(vector<vector<int>>& grid , int r , int c , vector<vector<pair<ll , ll >>>& dp){
-        if(r < 0 || c < 0)return { LLONG_MIN , LLONG_MAX};
-        if(r == 0 && c == 0)return {grid[0][0] , grid[0][0]};
-
-        if(dp[r][c].first != LLONG_MIN)return dp[r][c];
-
-        auto left = helper(grid , r , c - 1 , dp);
-        auto top = helper(grid , r - 1 , c , dp);
-
-        ll val = grid[r][c];
-        ll mx = LLONG_MIN;
-        ll mn = LLONG_MAX;
-
-        if(left.first != LLONG_MIN){
-            mx = max(mx, max(left.first * val, left.second * val));
-            mn = min(mn, min(left.first * val, left.second * val));
-        }
-
-        if(top.first != LLONG_MIN){
-            mx = max(mx, max(top.first * val, top.second * val));
-            mn = min(mn, min(top.first * val, top.second * val));
-        }
-
-        return dp[r][c] = {mx , mn};
-    }
 public:
     int maxProductPath(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        //dp (max_val , min_val )
-        vector<vector<pair< ll , ll >>> dp(n , vector<pair <ll , ll>> (m , { LLONG_MIN , LLONG_MAX}));
+        ll MOD = 1e9 + 7;
 
-        auto ans =  helper(grid , n-1 , m-1 , dp);
-        if(ans.first < 0)return -1;
-        return ans.first % MOD;
+        // dp[i][j] = {max product, min product}
+        vector<vector<pair<ll,ll>>> dp(
+            n, vector<pair<ll,ll>>(m)
+        );
+
+        dp[0][0] = {grid[0][0], grid[0][0]};
+
+        // first row
+        for(int j = 1; j < m; j++){
+            ll val = grid[0][j];
+            ll mx = dp[0][j-1].first * val;
+            ll mn = dp[0][j-1].second * val;
+            dp[0][j] = {mx, mn};
+        }
+
+        // first column
+        for(int i = 1; i < n; i++){
+            ll val = grid[i][0];
+            ll mx = dp[i-1][0].first * val;
+            ll mn = dp[i-1][0].second * val;
+            dp[i][0] = {mx, mn};
+        }
+
+        // rest of grid
+        for(int i = 1; i < n; i++){
+            for(int j = 1; j < m; j++){
+                ll val = grid[i][j];
+
+                ll a = dp[i-1][j].first;   // top max
+                ll b = dp[i-1][j].second;  // top min
+                ll c = dp[i][j-1].first;   // left max
+                ll d = dp[i][j-1].second;  // left min
+
+                ll mx = max({a*val, b*val, c*val, d*val});
+                ll mn = min({a*val, b*val, c*val, d*val});
+
+                dp[i][j] = {mx, mn};
+            }
+        }
+
+        ll ans = dp[n-1][m-1].first;
+
+        if(ans < 0) return -1;
+        return ans % MOD;
     }
 };
