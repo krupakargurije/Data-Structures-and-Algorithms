@@ -14,7 +14,8 @@ private:
         }
 
         // take 2 digits
-        if (s[idx - 1] == '1' || (s[idx - 1] == '2' && s[idx] <= '6')) {
+        string str = s.substr(idx - 1 , 2);
+        if (str >= "10" && str <= "26") {
             two = helper(s, idx - 2, dp);
         }
         return dp[idx] = one + two;
