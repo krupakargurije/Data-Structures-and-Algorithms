@@ -17,7 +17,6 @@ public:
             }
         }
 
-        if(total < 0)return -1;
-        return start;
+        return total < 0 ? -1 : start;
     }
 };
