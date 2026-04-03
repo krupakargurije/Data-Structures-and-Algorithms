@@ -1,45 +1,46 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        if (t.size() > s.size()) return "";
+        int n = s.length();
+        int m = t.length();
 
-        unordered_map<char, int> need;
-        for (char c : t) need[c]++;
+        if(n < m) return "";
+        if(s == t) return s;
 
-        int required = need.size();
+        unordered_map<char , int> mp;
+        unordered_map<char , int> req;
+
+        for(char &c : t) req[c]++;
+
+        int left = 0;
+        int required = req.size();
         int formed = 0;
+        int start = 0 , minLen = INT_MAX;
 
-        unordered_map<char, int> window;
-        int l = 0, r = 0;
+        for(int right = 0; right < n; right++) {
+            char c = s[right];  // ✅ FIX
+            mp[c]++;
 
-        int minLen = INT_MAX;
-        int start = 0;
+            if(req.count(c) && mp[c] == req[c]) formed++;
 
-        while (r < s.size()) {
-            char c = s[r];
-            window[c]++;
+            while(formed == required) {
+                int len = right - left + 1;
 
-            if (need.count(c) && window[c] == need[c]) {
-                formed++;
-            }
-
-            while (l <= r && formed == required) {
-                if (r - l + 1 < minLen) {
-                    minLen = r - l + 1;
-                    start = l;
+                if(len < minLen) {
+                    minLen = len;
+                    start = left;
                 }
 
-                char leftChar = s[l];
-                window[leftChar]--;
+                char ch = s[left];  // ✅ FIX
+                mp[ch]--;           // ✅ FIX
 
-                if (need.count(leftChar) && window[leftChar] < need[leftChar]) {
+                if(req.count(ch) && mp[ch] < req[ch]) {
                     formed--;
                 }
-                l++;
-            }
-            r++;
-        }
 
-        return minLen == INT_MAX ? "" : s.substr(start, minLen);
+                left++;
+            }
+        }
+        return minLen == INT_MAX ? "" : s.substr(start , minLen);
     }
 };
