@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool judgeCircle(string moves) {
-        pair<int , int> start = {0 , 0};
         pair<int , int> curr = {0 , 0};
 
         for(char &c : moves){
@@ -18,6 +17,6 @@ public:
                 curr.second -= 1;
             }
         }
-        return start == curr;
+        return curr == pair<int , int>{0 , 0};
     }
 };
