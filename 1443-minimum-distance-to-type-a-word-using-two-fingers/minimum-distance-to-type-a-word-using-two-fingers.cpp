@@ -1,31 +1,56 @@
 class Solution {
-    private:
-    int dp[301][27][27];
-    int getDist(int a , int b){
-        if(a == -1 || b == -1)return 0;
+private:
+    int getDist(int a, int b) {
+        if (a == 26 || b == 26) return 0;
 
-        int r1 = a / 6 , r2 = b / 6;
-        int c1 = a % 6 , c2 = b% 6;
+        int r1 = a / 6, c1 = a % 6;
+        int r2 = b / 6, c2 = b % 6;
 
         return abs(r1 - r2) + abs(c1 - c2);
     }
 
-    int helper(string word , int idx , int f1 , int f2){
-        if(idx < 0)return 0;
-        int curr = word[idx] - 'A';
-
-        if(dp[idx][f1+1][f2+1] != -1)
-            return dp[idx][f1+1][f2+1];
-
-        int usef1 = getDist(f1 , curr) + helper(word , idx - 1 , curr , f2);
-        int usef2 = getDist(f2 , curr) + helper(word , idx - 1 , f1 , curr);
-
-        return dp[idx][f1 + 1][f2 + 1] = min(usef1 , usef2);
-    }
 public:
     int minimumDistance(string word) {
         int n = word.size();
-        memset(dp , -1 , sizeof(dp));
-        return helper(word , n-1 , -1 , -1);
+
+        vector<vector<vector<int>>> dp(n,
+            vector<vector<int>>(27, vector<int>(27, 1e9)));
+
+        int first = word[0] - 'A';
+
+        // base case
+        dp[0][first][26] = 0;
+        dp[0][26][first] = 0;
+
+        for (int i = 1; i < n; i++) {
+            int curr = word[i] - 'A';
+
+            for (int f1 = 0; f1 < 27; f1++) {
+                for (int f2 = 0; f2 < 27; f2++) {
+
+                    if (dp[i-1][f1][f2] == 1e9) continue;
+
+                    // use finger1
+                    dp[i][curr][f2] = min(
+                        dp[i][curr][f2],
+                        dp[i-1][f1][f2] + getDist(f1, curr)
+                    );
+
+                    // use finger2
+                    dp[i][f1][curr] = min(
+                        dp[i][f1][curr],
+                        dp[i-1][f1][f2] + getDist(f2, curr)
+                    );
+                }
+            }
+        }
+        int ans = 1e9;
+        for (int f1 = 0; f1 < 27; f1++) {
+            for (int f2 = 0; f2 < 27; f2++) {
+                ans = min(ans, dp[n-1][f1][f2]);
+            }
+        }
+
+        return ans;
     }
 };
