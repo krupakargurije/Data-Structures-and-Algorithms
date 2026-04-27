@@ -3,10 +3,10 @@ public:
     vector<int> runningSum(vector<int>& nums) {
         vector<int>ans;
 
-        long long curr = 0;
+        int curr = 0;
         for(int i : nums){
-            curr += (long long)i;
-            ans.push_back((int)curr);
+            curr += i;
+            ans.push_back(curr);
         }
         return ans;
     }
