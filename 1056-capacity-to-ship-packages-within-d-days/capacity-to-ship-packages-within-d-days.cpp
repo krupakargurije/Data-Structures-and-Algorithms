@@ -18,7 +18,12 @@ public:
     int shipWithinDays(vector<int>& nums, int days) {
         int n = nums.size();
 
-        int left = *max_element(nums.begin() , nums.end()),right = accumulate(nums.begin() , nums.end() , 0);
+        int left = 0,right = 0;
+
+        for(int i : nums){
+            right += i;
+            left = max(left , i);
+        }
 
         while(left <= right){
             int mid = left + (right - left) /2;
