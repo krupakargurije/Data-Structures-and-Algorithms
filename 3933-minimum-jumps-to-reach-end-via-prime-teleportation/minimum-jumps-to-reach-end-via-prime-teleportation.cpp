@@ -24,7 +24,9 @@ private:
 public:
 
     int minJumps(vector<int>& nums) {
+
         int n = nums.size();
+
         int mx = *max_element(nums.begin(), nums.end());
 
         sieve(mx);
@@ -88,6 +90,7 @@ public:
                 }
             }
         }
+
         return -1;
     }
 };
