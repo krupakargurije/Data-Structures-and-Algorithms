@@ -20,23 +20,22 @@ public:
         }
 
         int k = n / 2;
-        temp = head;
-        stack<int>st;
+        ListNode* left = NULL;
+        ListNode* right = head;
+        temp = right->next;
 
         while(k--){
-            st.push(temp->val);
+            right->next = left;
+            left = right;
+            right = temp;
             temp = temp->next;
         }
-
-        k = n/2;
-        int ans = INT_MIN;
-
-        while(k--){
-            int a = st.top();
-            st.pop();
-            
-            ans = max(ans , a + temp->val);
-            temp = temp->next;
+        
+        int ans = 0;
+        while(left && right){
+            ans = max(ans , left->val + right->val);
+            left = left->next;
+            right = right->next;
         }
         return ans;
     }
