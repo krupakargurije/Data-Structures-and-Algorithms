@@ -1,31 +1,30 @@
 class Solution {
+    vector<int>dp;
 private:
-    int helper(string &s, int idx, vector<int> &dp) {
-        if (idx < 0) return 1;
-        if (idx == 0) return s[0] != '0';
+    int helper(string &s, int idx) {
+        if (idx == s.size())
+            return 1;
 
-        if (dp[idx] != -1) return dp[idx];
+        if (s[idx] == '0')
+            return 0;
 
-        int one = 0, two = 0;
+        if(dp[idx] != -1)return dp[idx];
 
-        // take 1 digit
-        if (s[idx] != '0') {
-            one = helper(s, idx - 1, dp);
+        int picOne = helper(s, idx + 1);
+
+        int picTwo = 0;
+        if (idx + 1 < s.size()) {
+            int num = stoi(s.substr(idx, 2));
+
+            if (num >= 10 && num <= 26)
+                picTwo = helper(s, idx + 2);
         }
-
-        // take 2 digits
-        string str = s.substr(idx - 1 , 2);
-        if (str >= "10" && str <= "26") {
-            two = helper(s, idx - 2, dp);
-        }
-        return dp[idx] = one + two;
+        return dp[idx] = picOne + picTwo;
     }
 
 public:
     int numDecodings(string s) {
-        if (s.empty() || s[0] == '0') return 0;
-        int n = s.length();
-        vector<int> dp(n, -1);
-        return helper(s, n - 1, dp);
+        dp.resize(s.length() , -1);
+        return helper(s, 0);
     }
 };
