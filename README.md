@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1381-design-a-stack-with-increment-operation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1381-design-a-stack-with-increment-operation) |
 | [1732-find-the-highest-altitude](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1732-find-the-highest-altitude) |
+| [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3838-weighted-word-mapping](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3838-weighted-word-mapping) |
 ## Stack
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Dynamic Programming
 |  |
@@ -59,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1732-find-the-highest-altitude) |
+## Sorting
+|  |
+| ------- |
+| [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 <!---LeetCode Topics End-->
