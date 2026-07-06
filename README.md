@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [1189-maximum-number-of-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [1189-maximum-number-of-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
