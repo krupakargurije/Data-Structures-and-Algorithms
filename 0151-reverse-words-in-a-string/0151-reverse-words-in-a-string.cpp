@@ -1,28 +1,38 @@
 class Solution {
+    private:
+    void trim(string &s){
+        int n = s.length();
+        int i = 0 , j = 0;
+
+        while(j < n){
+            //remove leading spaces
+            while(j < n && s[j] == ' ')
+                j++;
+
+            while(j < n && s[j] != ' ')
+                s[i++] = s[j++];
+            
+            while(j < n && s[j] == ' ')
+                j++;
+
+            if(j < n )
+                s[i++] = ' ';
+        }
+        s.resize(i);
+    }
 public:
     string reverseWords(string s) {
-        int n = s.length();
-        deque<string> arr;
-        string str = "";
+        trim(s);
 
-        for(char c : s){
-            if(c == ' '){
-                if(!str.empty()){
-                    arr.push_front(str);
-                    str = "";
-                }
+        reverse(s.begin(), s.end());
+        int start = 0;
+
+        for (int i = 0; i <= s.size(); i++) {
+            if (i == s.size() || s[i] == ' ') {
+                reverse(s.begin() + start, s.begin() + i);
+                start = i + 1;
             }
-            else str += c;
         }
-
-        if (!str.empty()) arr.push_front(str);
-
-        string ans;
-        for(string s : arr){
-            ans += s + " ";
-        }
-
-        if(!ans.empty())ans.pop_back();
-        return ans;
+        return s;
     }
 };
