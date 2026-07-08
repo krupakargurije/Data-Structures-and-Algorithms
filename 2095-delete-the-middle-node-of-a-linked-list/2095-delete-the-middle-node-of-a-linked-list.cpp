@@ -1,22 +1,37 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        if (!head->next) return nullptr;
+        if (head == nullptr || head->next == nullptr)
+            return nullptr;
+        
+        int n = 0;
+        ListNode *temp = head;
 
-        ListNode* slow = head;
-        ListNode* fast = slow->next->next;
-
-        while (fast && fast->next) {
-            slow = slow->next;
-            fast = fast->next->next;
+        while(temp){
+            temp = temp->next;
+            n++;
         }
 
-        slow->next = slow->next->next;
+        int half = (n / 2) - 1;
+        temp = head;
+
+        while(half--){
+            temp = temp->next;
+        }
+
+        ListNode *curr = temp->next;
+        temp->next = temp->next->next;
+        delete curr;
         return head;
     }
 };
-
-
-
-// Memory Deallocation
-// LeetCode environment automatically frees the bypassed middle node
