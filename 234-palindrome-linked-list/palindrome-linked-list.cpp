@@ -1,41 +1,49 @@
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        if (!head || !head->next)
-            return true;
-
-        // Find length
-        int n = 0;
-        ListNode* temp = head;
-        while (temp) {
-            n++;
-            temp = temp->next;
-        }
-
-        int half = n / 2;
-
-        // Reverse first half
+    ListNode* reverse(ListNode* head) {
         ListNode* prev = nullptr;
         ListNode* curr = head;
 
-        while (half--) {
+        while (curr) {
             ListNode* next = curr->next;
             curr->next = prev;
             prev = curr;
             curr = next;
         }
 
-        // Skip middle node if length is odd
-        if (n % 2 == 1)
-            curr = curr->next;
+        return prev;
+    }
 
-        // Compare
-        while (prev && curr) {
-            if (prev->val != curr->val)
+    bool isPalindrome(ListNode* head) {
+        if (!head || !head->next)
+            return true;
+
+        ListNode* slow = head;
+        ListNode* fast = head;
+
+        // Find the middle
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        // Skip the middle node for odd-length lists
+        if (fast)
+            slow = slow->next;
+
+        // Reverse the second half
+        ListNode* second = reverse(slow);
+
+        // Compare the two halves
+        ListNode* first = head;
+        ListNode* temp = second;
+
+        while (temp) {
+            if (first->val != temp->val)
                 return false;
 
-            prev = prev->next;
-            curr = curr->next;
+            first = first->next;
+            temp = temp->next;
         }
 
         return true;
