@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3612-process-string-with-special-operations-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3612-process-string-with-special-operations-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3838-weighted-word-mapping](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3838-weighted-word-mapping) |
 ## Simulation
 |  |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1732-find-the-highest-altitude) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Sorting
 |  |
 | ------- |
