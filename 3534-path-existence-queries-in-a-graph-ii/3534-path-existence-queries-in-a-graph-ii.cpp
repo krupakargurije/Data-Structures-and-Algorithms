@@ -1,80 +1,56 @@
+constexpr int L=18, N=1e5+1;
+using int2=pair<int, int>;
+int up[L][N], pos[N]; 
+int2 xId[N];
+
 class Solution {
 public:
+    static int cnt(int u, int v, int L) {
+        if (u==v) return 0;
+        if (up[0][u]>=v) return 1;
+        // cannot reach v
+        if (up[L-1][u]<v) return -1; 
+
+        int step=0;
+        for (int j=L-1; j>=0; j--) { 
+            if (up[j][u]<v) { // Only jump when satisfied
+                step+=(1<<j);
+                u=up[j][u];
+            }
+        }
+        return step+1;
+    }
+
     vector<int> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {
-         vector<pair<int,int>> sortedNums;
-        for(int i = 0 ; i < n; i++ )
-        {
-            sortedNums.push_back({nums[i],i});
-        }
-        sort(sortedNums.begin() , sortedNums.end());
-
-        unordered_map<int,int>  point ;
-
-        for(int i = 0 ; i< n; i++ )
-        {
-            point[sortedNums[i].second] = i ; // points[old] = sorted_one
-        }
-
-        vector<int> up(n+1,0); // parent
-        int j =0;
-        for(int i = 0 ; i< n ;i++ ){
-            while(j+1 <n && (sortedNums[j+1].first - sortedNums[i].first)<= maxDiff){
-                j++;
-            }
-            if( j<i)j =i;
-            up[i] = j;
-        }
-        int temp = n;
-
-        int k = 0 ; // log(n)
-        while(temp!=0){
-            k++;
-            temp/=2;
+        int maxL=bit_width((unsigned)n)+1;
+        for(int i=0; i<n; i++) 
+            xId[i]={nums[i], i};
+        
+        sort(xId, xId+n);
+        for (int i=0; i<n; i++)// pos of index in sorted xId
+            pos[xId[i].second]=i;
+        
+        //sliding window 
+        for (int l=0, r=0; l<n; l++) {
+            while (r+1<n && xId[r+1].first-xId[l].first<=maxDiff) 
+                r++;
+            up[0][l]=r;
         }
 
-        vector<vector<int>> dp(n+1 , vector<int>(k+1,0));
-
-        for(int i = 0 ; i< n; i++ ){
-            dp[i][0] = up[i];
-        }
-
-        for(int j = 1 ; j < k ; j++ ){
-            for(int i =0 ; i <n ;i++ )
-            {
-                dp[i][j] = dp[ dp[i][j-1] ][j-1];
+        // Compute binary lifting tables
+        for (int j=1; j<maxL; j++) {
+            for (int i=0; i<n; i++) {
+                up[j][i]=up[j-1][up[j-1][i]];
             }
         }
 
-        vector<int> res;
-
-        for(vector<int>& q : queries )
-        {
-            int u = q[0] , v = q[1];
-
-            if(u==v)
-            {
-                res.push_back(0);
-                continue;
-            }
-
-            int st = min(point[u],point[v]) , en = max(point[u],point[v]);
-
-            if(up[st]==st){
-                res.push_back(-1);
-                continue;
-            }
-            int node = st;
-            int step = 0;
-            for(int i = k-1 ; i>=0 ; i--){
-                if(dp[node][i] < en ){
-                    node = dp[node][i];
-                    step += 1<<i;
-                }
-            }
-            if(up[node] < en )res.push_back(-1);
-            else res.push_back(step+1);
-
+        const int qz=queries.size();
+        vector<int> ans(qz);
+        int i=0;
+        for (auto& q : queries) {
+            auto [u, v]=minmax(pos[q[0]], pos[q[1]]);
+            ans[i++]=cnt(u, v, maxL);
         }
-        return res;
+        return ans;
     }
 };
