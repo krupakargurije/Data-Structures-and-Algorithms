@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [1046-last-stone-weight](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1046-last-stone-weight) |
 | [1288-remove-covered-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [1288-remove-covered-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1288-remove-covered-intervals) |
