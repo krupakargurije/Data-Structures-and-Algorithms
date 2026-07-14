@@ -49,8 +49,6 @@ public:
             for(int j=0;j<m;j++){
                 if(matrix[i][j]=='1')
                     nums[i][j] = nums[i-1][j]+1;
-                else
-                    nums[i][j]=0;
             }
         }
 
