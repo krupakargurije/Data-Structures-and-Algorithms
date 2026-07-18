@@ -1,34 +1,44 @@
-class Solution {
-public:
-    bool validPath(int n, vector<vector<int>>& edges, int source, int dest) {
-        vector<vector<int>>adj(n);
+class UFDS{
+    int n;
+    vector<int>parents;
 
-        for(auto it : edges){
-            int u = it[0];
-            int v = it[1];
+    public:
+    UFDS(int n){
+        this->n = n;
+        parents.resize(n);
 
-            adj[u].push_back(v);
-            adj[v].push_back(u);
+        for(int i = 0;i<n;i++){
+            parents[i] = i;
         }
+    }
 
-        queue<int>q;
-        vector<int>vis(n , 0);
+    int find(int x){
+        if(parents[x] == x)
+            return x;
+        return parents[x] = find(parents[x]);
+    }
 
-        q.push(source);
-        vis[source] = 1;
+    bool unite(int x , int y){
+        int px = find(x) , py = find(y);
 
-        while(!q.empty()){
-            auto node = q.front(); q.pop();
-
-            if(node == dest)return true;
-
-            for(int i : adj[node]){
-                if(!vis[i]){
-                    q.push(i);
-                    vis[i] = 1;
-                }
-            }
-        }
-        return false;
+        if(px == py)
+            return false;
+        
+        parents[px] = py;
+        return true;
     }
 };
+
+class Solution {
+public:
+    bool validPath(int n, vector<vector<int>>& edges, int source, int des) {
+        UFDS ds(n);
+        
+        for(auto &e : edges){
+            ds.unite(e[0], e[1]);
+        }
+
+        return ds.find(source) == ds.find(des);
+    }
+};
+
