@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3612-process-string-with-special-operations-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3838-weighted-word-mapping](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3838-weighted-word-mapping) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1291-sequential-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1291-sequential-digits) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3499-maximize-active-section-with-trade-i) |
 ## Sliding Window
 |  |
 | ------- |
