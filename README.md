@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2104-sum-of-subarray-ranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2104-sum-of-subarray-ranges) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1381-design-a-stack-with-increment-operation) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2104-sum-of-subarray-ranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2104-sum-of-subarray-ranges) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Design
 |  |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0907-sum-of-subarray-minimums](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [2104-sum-of-subarray-ranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2104-sum-of-subarray-ranges) |
 ## Segment Tree
 |  |
 | ------- |
