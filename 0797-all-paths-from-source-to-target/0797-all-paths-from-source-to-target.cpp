@@ -1,32 +1,24 @@
 class Solution {
     vector<vector<int>> ans;
-    void helper(vector<vector<int>> &adj){
+    void helper(vector<vector<int>> &adj , vector<int> &curr , int node){
         int n = adj.size();
-        int m = adj[0].size();
 
-        queue<pair<int , vector<int>>>q;
+        if(node == n-1){
+            ans.push_back(curr);
+            return;
+        }
 
-        q.push({0 , {0}});
-
-        while(!q.empty()){
-            auto [node , path] = q.front();
-            q.pop();
-
-            if(node == n-1){
-                ans.push_back(path);
-                continue;
-            }
-
-            for(int it : adj[node]){
-                vector<int> newPath = path;
-                newPath.push_back(it);
-                q.push({it, newPath});
-            }
+        for(int it : adj[node]){
+            curr.push_back(it);
+            helper(adj , curr , it);
+            curr.pop_back();
         }
     }
 public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& adj) {
-        helper(adj);
+        vector<int> curr;
+        curr.push_back(0);
+        helper(adj , curr , 0);
         return ans;
     }
 };
