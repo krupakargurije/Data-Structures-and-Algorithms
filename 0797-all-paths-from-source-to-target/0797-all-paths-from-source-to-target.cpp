@@ -12,7 +12,7 @@ class Solution {
             auto [node , path] = q.front();
             q.pop();
 
-            if(node == adj.size() - 1){
+            if(node == n-1){
                 ans.push_back(path);
                 continue;
             }
