@@ -1,9 +1,7 @@
 class StockSpanner {
     stack<pair<int , int>>st;
 public:
-    StockSpanner() {
-        
-    }
+    StockSpanner() {}
     
     int next(int price) {
         int span = 1;
