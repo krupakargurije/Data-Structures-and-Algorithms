@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0901-online-stock-span) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1381-design-a-stack-with-increment-operation) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0237-delete-node-in-a-linked-list) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0138-copy-list-with-random-pointer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [1189-maximum-number-of-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1189-maximum-number-of-balloons) |
@@ -308,4 +311,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3501-maximize-active-section-with-trade-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
