@@ -49,9 +49,9 @@ public:
 
     void put(int key, int value) {
         if (m.find(key) != m.end()) {
-            Node* existingNode = m[key];
+            Node* ex = m[key];
             m.erase(key);
-            deleteNode(existingNode);
+            deleteNode(ex);
         }
         if (m.size() == cap) {
             m.erase(tail->prev->key);
