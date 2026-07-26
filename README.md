@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0518-coin-change-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0518-coin-change-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [0735-asteroid-collision](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1046-last-stone-weight](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1046-last-stone-weight) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0050-powx-n) |
+| [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
+| [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1331-rank-transform-of-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1833-maximum-ice-cream-bars) |
