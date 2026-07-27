@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1331-rank-transform-of-an-array) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1381-design-a-stack-with-increment-operation) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1331-rank-transform-of-an-array) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1046-last-stone-weight](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1046-last-stone-weight) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Binary Tree
