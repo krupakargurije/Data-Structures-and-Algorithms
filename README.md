@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
+| [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0518-coin-change-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0518-coin-change-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [0735-asteroid-collision](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0735-asteroid-collision) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0022-generate-parentheses) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
+| [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0518-coin-change-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0518-coin-change-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0907-sum-of-subarray-minimums) |
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [1732-find-the-highest-altitude](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1732-find-the-highest-altitude) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Sorting
@@ -172,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -201,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
+| [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1833-maximum-ice-cream-bars](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1833-maximum-ice-cream-bars) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3534-path-existence-queries-in-a-graph-ii) |
