@@ -4,21 +4,14 @@ public:
         int n = nums.size();
         int m = nums[0].size();
 
-        for(int i = 0;i<n;i++){
-            if(t < nums[i][0] || t > nums[i][m-1])
-                continue;
-            
-            int left = 0 , right = m-1;
-            while(left <= right){
-                int mid = left + (right - left) / 2;
-
-                if(nums[i][mid] == t)
-                    return true;
-                else if(t < nums[i][mid])
-                    right = mid - 1;
-                else
-                    left = mid + 1;
-            }
+        int i = 0 , j = m- 1;
+        while(i < n && j >= 0){
+            if(nums[i][j] == t)
+                return true;
+            else if(nums[i][j] > t)
+                j--;
+            else
+                i++;
         }
         return false;
     }
