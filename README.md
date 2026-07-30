@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0022-generate-parentheses) |
+| [0076-minimum-window-substring](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0076-minimum-window-substring](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0076-minimum-window-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Breadth-First Search
 |  |
