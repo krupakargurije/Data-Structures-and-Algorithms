@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0234-palindrome-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0518-coin-change-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0518-coin-change-ii) |
@@ -154,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
@@ -326,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
 | [0901-online-stock-span](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0901-online-stock-span) |
