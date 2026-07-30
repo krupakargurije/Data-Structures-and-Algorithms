@@ -1,16 +1,4 @@
 class Solution {
-    private:
-    void helper(int i , vector<int> &vis , stack<int> &st , vector<vector<int>> &adj){
-        vis[i] = 1;
-        
-        for(int it : adj[i]){
-            if(!vis[it]){
-                helper(it , vis , st , adj);
-            }
-                
-        }
-        st.push(i);
-    }
   public:
     vector<int> topoSort(int n, vector<vector<int>>& edges) {
         vector<vector<int>>adj(n);
@@ -22,18 +10,31 @@ class Solution {
             adj[u].push_back(v);
         }
         
-        vector<int>vis(n , 0);
-        stack<int>st;
-        
+        vector<int>inDegree(n , 0);
         for(int i = 0;i<n;i++){
-            if(!vis[i])
-                helper(i , vis , st , adj);
+            for(int it : adj[i]){
+                inDegree[it]++;
+            }
+        }
+        
+        queue<int>q;
+        for(int i = 0;i<n;i++){
+            if(!inDegree[i])
+                q.push(i);
         }
         
         vector<int>ans;
-        while(!st.empty()){
-            ans.push_back(st.top());
-            st.pop();
+        
+        while(!q.empty()){
+            auto node = q.front();
+            q.pop();
+            
+            for(int i : adj[node]){
+                inDegree[i]--;
+                if(inDegree[i] == 0)
+                    q.push(i);
+            }
+            ans.push_back(node);
         }
         return ans;
     }
