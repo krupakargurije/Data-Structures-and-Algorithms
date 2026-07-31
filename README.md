@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0057-insert-interval) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
