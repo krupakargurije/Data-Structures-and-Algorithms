@@ -13,9 +13,9 @@ public:
             ans = max(ans , pref);
             ans = max(ans , suff);
 
-            if(nums[i] == 0)
+            if(pref == 0)
                 pref = 1;
-            if(nums[n - i - 1] == 0)
+            if(suff == 0)
                 suff = 1;
             i++;
         }
