@@ -4,11 +4,19 @@ public:
         unordered_map<string , vector<string>>mp;
         int n = strs.size();
         
-        for(int i = 0;i<n;i++){
-            string str = strs[i];
-            sort(str.begin() , str.end());
+        for(string str : strs){
+            vector<int> fr(26 , 0);
 
-            mp[str].push_back(strs[i]);
+            for(char c : str)
+                fr[c - 'a']++;
+            
+            string key = "";
+            for(int x : fr){
+                key += '#';
+                key += x;
+            }
+
+            mp[key].push_back(str);
         }
         vector<vector<string>>ans;
         for(auto &it : mp){
