@@ -1,27 +1,22 @@
 class Solution {
-    private:
-    int helper(int l , int r , int turn , vector<int>& nums ,  vector<vector<vector<int>>> &dp){
-        if(l > r)
-            return 0;
+    int solve(int l, int r, vector<int>& nums, vector<vector<int>>& dp) {
+        if (l == r)
+            return nums[l];
 
-        if(dp[l][r][turn] != -1)return dp[l][r][turn];
+        if (dp[l][r] != INT_MIN)
+            return dp[l][r];
 
-        if(!turn){
-            return dp[l][r][turn] = max(nums[l] + helper(l + 1 , r , 1 , nums , dp) , 
-            nums[r] + helper(l , r - 1 , 1 , nums , dp));
-        }
-        return dp[l][r][turn] = min(helper(l + 1 , r , 0 , nums , dp) , helper(l , r - 1 , 0 , nums , dp));
+        int takeLeft = nums[l] - solve(l + 1, r, nums, dp);
+        int takeRight = nums[r] - solve(l, r - 1, nums, dp);
+
+        return dp[l][r] = max(takeLeft, takeRight);
     }
+
 public:
     bool predictTheWinner(vector<int>& nums) {
         int n = nums.size();
-        vector<vector<vector<int>>> dp(21, vector<vector<int>>(21, vector<int>(2, -1)));
+        vector<vector<int>> dp(n, vector<int>(n, INT_MIN));
 
-        int sum = 0;
-        for(int i : nums){
-            sum += i;
-        }
-        int curr =  helper(0 , n - 1 , 0 , nums , dp);
-        return curr >= (sum - curr);
+        return solve(0, n - 1, nums, dp) >= 0;
     }
 };
