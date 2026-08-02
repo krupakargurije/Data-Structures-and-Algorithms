@@ -1,38 +1,40 @@
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& nums) {
-        vector<int> indeg(numCourses, 0);
-        vector<vector<int>> adj(numCourses);
+    bool canFinish(int numCourses, vector<vector<int>>& order) {
+        if(order.empty())return true;
+        int n = numCourses;
 
-        // Build graph
-        for (auto &it : nums) {
-            int u = it[0]; 
-            int v = it[1];  
+        vector<int>indegree(n , 0);
+        vector<vector<int>>adj(n);
+
+        for(auto &it : order){
+            int u = it[0];
+            int v = it[1];
+
             adj[v].push_back(u);
-            indeg[u]++;
+            indegree[u]++;
         }
 
-        queue<int> q;
-
-        for (int i = 0; i < numCourses; i++) {
-            if (indeg[i] == 0)
+        queue<int>q;
+        for(int i = 0;i<n;i++){
+            if(indegree[i] == 0)
                 q.push(i);
         }
 
-        int vis = 0;
-
-        while (!q.empty()) {
-            int node = q.front();
+        while(!q.empty()){
+            auto node = q.front();
             q.pop();
-            vis++;
 
-            for (int it : adj[node]) {
-                indeg[it]--;
-                if (indeg[it] == 0)
-                    q.push(it);
+            for(int i : adj[node]){
+                indegree[i]--;
+                if(!indegree[i])
+                    q.push(i);
             }
         }
 
-        return vis == numCourses;
+        for(int &it : indegree)
+            if(it)
+                return false;
+        return true;
     }
 };
