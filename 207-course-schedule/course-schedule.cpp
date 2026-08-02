@@ -21,9 +21,11 @@ public:
                 q.push(i);
         }
 
+        int vis = 0;
         while(!q.empty()){
             auto node = q.front();
             q.pop();
+            vis++;
 
             for(int i : adj[node]){
                 indegree[i]--;
@@ -31,10 +33,6 @@ public:
                     q.push(i);
             }
         }
-
-        for(int &it : indegree)
-            if(it)
-                return false;
-        return true;
+        return vis == n;
     }
 };
