@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0162-find-peak-element) |
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0486-predict-the-winner](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0486-predict-the-winner) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0239-sliding-window-maximum) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Breadth-First Search
 |  |
@@ -405,4 +408,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0877-stone-game) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
