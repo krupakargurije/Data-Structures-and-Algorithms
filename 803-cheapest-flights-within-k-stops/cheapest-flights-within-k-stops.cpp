@@ -31,7 +31,6 @@ public:
                 q.push({cost + nCost, nNode, stop + 1});
             }
         }
-
         return -1;
     }
 };
