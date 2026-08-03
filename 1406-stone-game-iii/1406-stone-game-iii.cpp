@@ -17,27 +17,27 @@ class Solution {
     //     return dp[idx] = max({one , two , three});
     // }
 public:
-    string stoneGameIII(vector<int>& nums){
+    string stoneGameIII(vector<int>& nums) {
         int n = nums.size();
-        vector<int>dp(n + 1, INT_MIN);
-        // int diff = helper(nums , 0 , dp);
 
-        dp[n] = 0;
-        for(int i = n - 1; i >= 0; i--){
-            int taken = 0;
-            for(int k = 0;k<3 && i + k < n;k++){
-                taken += nums[i + k];
+        vector<int> dp(n + 1, 0);
 
-                dp[i] = max(dp[i] ,taken - dp[i + k + 1]);
-            }
+        for (int i = n - 1; i >= 0; i--) {
+            int one = nums[i] - dp[i + 1];
+
+            int two = INT_MIN;
+            if (i + 1 < n)
+                two = nums[i] + nums[i + 1] - dp[i + 2];
+
+            int three = INT_MIN;
+            if (i + 2 < n)
+                three = nums[i] + nums[i + 1] + nums[i + 2] - dp[i + 3];
+
+            dp[i] = max({one, two, three});
         }
 
-        int diff = dp[0];
-        if(diff > 0) 
-            return"Alice";
-
-        else if(diff < 0)
-            return "Bob";
+        if (dp[0] > 0) return "Alice";
+        if (dp[0] < 0) return "Bob";
         return "Tie";
     }
 };
