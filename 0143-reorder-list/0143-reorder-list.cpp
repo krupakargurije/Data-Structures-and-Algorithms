@@ -11,27 +11,41 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        stack<ListNode*>st;
+        if (!head || !head->next)
+            return;
 
-        ListNode* temp = head;
-        int n = 0;
-        
-        while(temp){
-            st.push(temp);
-            temp = temp->next;
-            n++;
+        // Step 1: Find the middle
+        ListNode *slow = head, *fast = head;
+        while (fast->next && fast->next->next) {
+            slow = slow->next;
+            fast = fast->next->next;
         }
 
-        temp = head;
-        for(int i = 0;i< n /2;i++){
-            ListNode *nxt = temp->next;
-            ListNode* last = st.top();
-            st.pop();
+        // Step 2: Reverse the second half
+        ListNode *second = slow->next;
+        slow->next = nullptr;
 
-            temp->next = last;
-            last->next = nxt;
-            temp = nxt;
+        ListNode *prev = nullptr;
+        while (second) {
+            ListNode *next = second->next;
+            second->next = prev;
+            prev = second;
+            second = next;
         }
-        temp->next = nullptr;
+
+        // Step 3: Merge the two halves
+        ListNode *first = head;
+        second = prev;
+
+        while (second) {
+            ListNode *firstNext = first->next;
+            ListNode *secondNext = second->next;
+
+            first->next = second;
+            second->next = firstNext;
+
+            first = firstNext;
+            second = secondNext;
+        }
     }
 };
