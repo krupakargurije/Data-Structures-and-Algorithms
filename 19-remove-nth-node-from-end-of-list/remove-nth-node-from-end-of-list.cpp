@@ -29,7 +29,9 @@ public:
 
         while(temp != NULL){
             if(count == length-n){
+                ListNode* del = temp->next;
                 temp->next = temp->next->next;
+                delete del;
                 break;
             }
             temp = temp->next;
