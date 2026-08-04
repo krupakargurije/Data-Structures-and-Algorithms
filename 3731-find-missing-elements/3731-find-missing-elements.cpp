@@ -9,6 +9,9 @@ public:
         int pos = 0;
 
         for(int i = start;i<=end;i++){
+            while (pos + 1 < n && nums[pos] == nums[pos + 1])
+                pos++;
+                
             while(pos < n && nums[pos] != i){
                 ans.push_back(i);
                 i++;
