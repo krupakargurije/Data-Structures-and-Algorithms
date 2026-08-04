@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
+| [0143-reorder-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
 | [0735-asteroid-collision](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0735-asteroid-collision) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0092-reverse-linked-list-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0206-reverse-linked-list) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0234-palindrome-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
@@ -368,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0050-powx-n) |
+| [0143-reorder-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0486-predict-the-winner](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0486-predict-the-winner) |
