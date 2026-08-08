@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0486-predict-the-winner](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0486-predict-the-winner) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0210-course-schedule-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0210-course-schedule-ii) |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -490,4 +494,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0572-subtree-of-another-tree) |
+## DP on Trees
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
