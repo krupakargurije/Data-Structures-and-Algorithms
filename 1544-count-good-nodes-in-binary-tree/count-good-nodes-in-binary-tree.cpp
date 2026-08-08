@@ -14,9 +14,13 @@ class Solution {
     void helper(TreeNode* root , int mx){
         if(!root)return;
 
-        helper(root->left , max(mx , root->val));
-        helper(root->right , max(mx , root->val));
-        if(root->val >= mx)ans++;
+        if (root->val >= mx)
+            ans++;
+
+        mx = max(mx, root->val);
+
+        helper(root->left , mx);
+        helper(root->right , mx);
     }
 public:
     int goodNodes(TreeNode* root) {
