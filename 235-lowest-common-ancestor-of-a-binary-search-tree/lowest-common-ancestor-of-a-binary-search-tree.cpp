@@ -11,15 +11,14 @@
 class Solution {
     private:
     TreeNode* ans = NULL;
-    bool helper(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(!root)
-            return false;
-        
+    bool helper(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(!root)return false;
+
         bool left = helper(root->left , p , q);
         bool right = helper(root->right , p , q);
-        bool self = (root == p || root == q);
+        bool self = root == p || root == q;
 
-        if(left && right || self && left || right && self)ans = root;
+        if(left && right || left && self || right && self )ans = root;
         return left || right || self;
     }
 public:
