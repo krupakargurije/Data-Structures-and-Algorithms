@@ -10,16 +10,12 @@
  * };
  */
 class Solution {
-    private:
-    bool helper(TreeNode* p, TreeNode* q){
-        if(p == NULL && q == NULL)return true;
-        if(p == NULL || q == NULL)return false;
-        if(p->val != q->val)return false;
-
-        return helper(p->left,q->left) && helper(p->right,q->right);
-    }
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return helper(p,q);
+        if(!p || !q)return p == q; 
+
+        bool left = isSameTree(p->left , q->left);
+        bool right = isSameTree(p->right , q->right);
+        return left && right &&  p->val == q->val;
     }
 };
