@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0797-all-paths-from-source-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0797-all-paths-from-source-to-target) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
@@ -265,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0797-all-paths-from-source-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0797-all-paths-from-source-to-target) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
