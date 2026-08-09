@@ -1,27 +1,25 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        stack<int> open; // indices of '('
-        stack<int> star; // indices of '*'
+        int mn = 0 , mx = 0;
 
-        for (int i = 0; i < (int)s.size(); ++i) {
-            if (s[i] == '(') open.push(i);
-            else if (s[i] == '*') star.push(i);
-            else { // s[i] == ')'
-                if (!open.empty()) open.pop();
-                else if (!star.empty()) star.pop();
-                else return false; // no match for ')'
+        for(char c : s){
+            if(c == '('){
+                mn++;
+                mx++;
             }
-        }
+            else if(c ==')'){
+                mn--;
+                mx--;
+            }
+            else{
+                mn--;
+                mx++;
+            }
 
-        // Match remaining '(' with later '*' used as ')'
-        while (!open.empty()) {
-            if (star.empty()) return false;
-            if (star.top() < open.top()) return false; // '*' must come after '('
-            star.pop();
-            open.pop();
+            if(mn < 0)mn = 0;
+            if(mx < 0)return false;
         }
-
-        return true;
+        return mn == 0;
     }
 };
