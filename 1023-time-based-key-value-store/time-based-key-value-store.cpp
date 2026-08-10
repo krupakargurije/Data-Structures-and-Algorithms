@@ -22,7 +22,7 @@ public:
             else
                 right = mid - 1;
         }
-        return curr[left - 1].second;
+        return curr[right].second;
     }
 };
 
