@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0239-sliding-window-maximum) |
+| [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0234-palindrome-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0162-find-peak-element) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -542,4 +546,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
