@@ -3,13 +3,13 @@ public:
     int largestRectangleArea(vector<int>& nums) {
         int n = nums.size();
         stack<int>st;
-        vector<int>leftMax(n , -1) , rightMax(n , n);
+        vector<int>leftSmaller(n , -1) , rightSmaller(n , n);
 
         for(int i = 0;i<n;i++){
 
             while(!st.empty() && nums[st.top()] >= nums[i])st.pop();
 
-            leftMax[i] = !st.empty() ? st.top() : -1;
+            leftSmaller[i] = !st.empty() ? st.top() : -1;
             st.push(i);
         }
 
@@ -19,13 +19,13 @@ public:
 
             while(!st.empty() && nums[st.top()] >= nums[i])st.pop();
 
-            rightMax[i] = !st.empty() ? st.top() : n;
+            rightSmaller[i] = !st.empty() ? st.top() : n;
             st.push(i);
         }
 
         int ans = 0;
         for(int i = 0;i<n;i++){
-            int width = rightMax[i] - leftMax[i] - 1;
+            int width = rightSmaller[i] - leftSmaller[i] - 1;
             ans = max(ans,nums[i] * width);
         }
         return ans;
