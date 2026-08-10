@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 | [1840-maximum-building-height](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1840-maximum-building-height) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
 | [1406-stone-game-iii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -478,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 ## Queue
 |  |
 | ------- |
@@ -518,12 +521,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
