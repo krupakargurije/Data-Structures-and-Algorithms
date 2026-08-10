@@ -1,13 +1,14 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        bool fault = 0;
+        int fault = 0;
         int n = nums.size();
 
-        for (int i = 0; i < n; i++)
-            if (nums[i] > nums[(i + 1) % n] && exchange(fault, 1))
-                return 0;
+        for (int i = 0; i < n; i++){
+            if(nums[(i + 1) % n] < nums[i])fault++;
 
-        return 1;
+            if(fault > 1)return false;
+        }
+        return true;
     }
 };
