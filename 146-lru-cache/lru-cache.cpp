@@ -42,7 +42,7 @@ public:
         if (m.find(key) != m.end()) {
             Node* resNode = m[key];
             int res = resNode->value;
-            m.erase(key);
+            // m.erase(key);
             deleteNode(resNode);
             addNode(resNode);
             m[key] = head->next;
