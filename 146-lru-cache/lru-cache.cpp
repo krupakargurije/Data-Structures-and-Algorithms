@@ -10,7 +10,6 @@ class LRUCache {
         }
     };
 
-
 public:
     int cap;
     unordered_map<int, Node*> m;
