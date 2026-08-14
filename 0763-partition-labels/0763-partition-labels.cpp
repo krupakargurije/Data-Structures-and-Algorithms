@@ -8,18 +8,18 @@ public:
             mp[s[i] - 'a'] = i;
         }
 
-        int left = 0;
-        int right = 0;
+        int start = 0;
+        int end = 0;
         vector<int>ans;
 
         for(int i = 0;i<n;i++){
             char curr = s[i];
 
-            right = max(right , mp[curr - 'a']);
+            end = max(end , mp[curr - 'a']);
 
-            if(right == i){
-                ans.push_back(right - left + 1);
-                left = i + 1;
+            if(end == i){
+                ans.push_back(end - start + 1);
+                start = i + 1;
             }
         }
         return ans;
