@@ -17,25 +17,25 @@ public:
         vector<vector<int>>ans;
         queue<TreeNode*>q;
         q.push(root);
+        bool flag = false;
 
         while(!q.empty()){
             int n = q.size();
-            vector<int>curr;
+            vector<int>curr(n);
 
-            while(n--){
+            for(int i = 0;i<n;i++){
                 auto node = q.front();
                 q.pop();
 
-                curr.push_back(node->val);
+                int idx = !flag ? i : n - 1 - i;
+                curr[idx] = node->val;
 
                 if(node->left)q.push(node->left);
                 if(node->right)q.push(node->right);
-            }
-            ans.push_back(curr);
-        }
 
-        for(int i = 1;i<ans.size();i += 2){
-            reverse(ans[i].begin() , ans[i].end());
+            }
+            flag = flag ? 0 : 1;
+            ans.push_back(curr);
         }
         return ans;
     }
