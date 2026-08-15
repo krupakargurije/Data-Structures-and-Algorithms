@@ -10,8 +10,7 @@
  * };
  */
 class Solution {
-    private:
-    bool balanced = true;
+    bool ans = true;
     int helper(TreeNode* root){
         if(!root)return 0;
 
@@ -19,14 +18,15 @@ class Solution {
         int right = 1 + helper(root->right);
 
         if(abs(left - right) > 1){
-            balanced = 0;
+            ans = false;
             return 0;
         }
         return max(left , right);
     }
 public:
     bool isBalanced(TreeNode* root) {
+        if(!root)return true;
         helper(root);
-        return balanced;
+        return ans;
     }
 };
