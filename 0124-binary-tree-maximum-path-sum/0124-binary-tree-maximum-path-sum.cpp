@@ -24,6 +24,6 @@ class Solution {
 public:
     int maxPathSum(TreeNode* root) {
         helper(root);
-        return ans != INT_MIN ? ans : 0;
+        return ans;
     }
 };
