@@ -16,17 +16,24 @@ public:
 
         if(n == 1)return nums[0];
 
-        dp.assign(n + 1 , 0);
+        // dp.assign(n + 1 , 0);
 
-        dp[0] = nums[0];
-        dp[1] = max(nums[0] , nums[1]);
+        // dp[0] = nums[0];
+        // dp[1] = max(nums[0] , nums[1]);
+
+        int prev = nums[0];
+        int curr = max(nums[0] , nums[1]);
 
         for(int i = 2;i<n;i++){
-            int rob = nums[i] + dp[i - 2];
-            int skip = dp[i - 1];
+            int rob = nums[i] + prev;
+            int skip = curr;
 
-            dp[i] = max(rob , skip);
+            int temp = max(rob , skip);
+
+            prev = curr;
+            curr = temp;
+            
         }
-        return dp[n-1];
+        return curr;
     }
 };
