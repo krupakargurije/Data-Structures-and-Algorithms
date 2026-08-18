@@ -2,24 +2,27 @@ class Solution {
 public:
     int largestInteger(vector<int>& nums, int k) {
         int n = nums.size();
-        unordered_map<int , int>freq;
+        if(k == n)return *max_element(nums.begin() , nums.end());
 
-        for(int i = 0;i<=n - k;i++){
-            unordered_set<int>st;
-            for(int j = i;j< i + k;j++){
-                st.insert(nums[j]);
+        unordered_map<int , int>mp;
+
+        for(int i : nums)
+            mp[i]++;
+
+        if(k == 1){
+            int ans = -1;
+            for(auto &[num , freq] : mp){
+                if(freq == 1)
+                    ans = max(ans , num);
             }
-
-            for(int num : st)
-                freq[num]++;
+            return ans;
         }
 
         int ans = -1;
-        for(auto &it : freq){
-            if(it.second == 1){
-                ans = max(ans , it.first);
-            }
-        }
+        if(mp[nums[0]] == 1)
+            ans = max(ans , nums[0]);
+        if(mp[nums[n-1]] == 1)
+            ans = max(ans , nums[n - 1]);
         return ans;
     }
 };
