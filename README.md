@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3731-find-missing-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3731-find-missing-elements) |
 ## Enumeration
