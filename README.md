@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Depth-First Search
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0662-maximum-width-of-binary-tree) |
 | [0797-all-paths-from-source-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0797-all-paths-from-source-to-target) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Data Stream
 |  |
@@ -413,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0621-task-scheduler) |
 | [0763-partition-labels](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0763-partition-labels) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0981-time-based-key-value-store](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0981-time-based-key-value-store) |
 | [1189-maximum-number-of-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1189-maximum-number-of-balloons) |
@@ -457,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0662-maximum-width-of-binary-tree) |
 | [0797-all-paths-from-source-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0797-all-paths-from-source-to-target) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
