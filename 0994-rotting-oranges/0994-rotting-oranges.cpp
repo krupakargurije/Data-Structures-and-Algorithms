@@ -29,8 +29,7 @@ public:
                 int nRow = r + delRow[i];
                 int nCol = c + delCol[i];
 
-                if(nRow >= 0 && nRow < n && nCol >= 0 && nCol < m &&
-                    grid[nRow][nCol] != -1 && grid[nRow][nCol] == 1){
+                if(nRow >= 0 && nRow < n && nCol >= 0 && nCol < m && grid[nRow][nCol] == 1){
 
                     // vis[nRow][nCol] = 1;
                     q.push({nRow , nCol , time + 1});
