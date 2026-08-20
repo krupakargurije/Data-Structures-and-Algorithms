@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0735-asteroid-collision) |
 | [0877-stone-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0907-sum-of-subarray-minimums) |
+| [0994-rotting-oranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1046-last-stone-weight) |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
 | [1288-remove-covered-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1288-remove-covered-intervals) |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0226-invert-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0662-maximum-width-of-binary-tree) |
 | [0797-all-paths-from-source-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0797-all-paths-from-source-to-target) |
+| [0994-rotting-oranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -477,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
+| [0994-rotting-oranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0994-rotting-oranges) |
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3286-find-a-safe-walk-through-a-grid) |
