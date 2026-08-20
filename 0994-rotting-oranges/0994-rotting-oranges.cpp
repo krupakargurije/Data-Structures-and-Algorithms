@@ -5,13 +5,14 @@ public:
         int m = grid[0].size();
 
         queue<tuple< int , int , int>>q;
-        vector<vector<int>>vis (n , vector<int>(m , 0));
+        // vector<vector<int>>vis (n , vector<int>(m , 0));
 
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i<n;i++){ // n * m
             for(int j = 0;j<m;j++){
                 if(grid[i][j] == 2){
                     q.push({i , j , 0});
-                    vis[i][j] = 1;
+                    grid[i][j] = -1;
+                    // vis[i][j] = 1;
                 }
             }
         }
@@ -19,7 +20,7 @@ public:
         int delCol[] = {0 , 1 , 0 , -1};
         int ans = 0;
 
-        while(!q.empty()){
+        while(!q.empty()){ // n * m 
             auto [r , c , time] = q.front();
             q.pop();
             ans = max(ans , time);
@@ -29,17 +30,18 @@ public:
                 int nCol = c + delCol[i];
 
                 if(nRow >= 0 && nRow < n && nCol >= 0 && nCol < m &&
-                    grid[nRow][nCol] == 1 && !vis[nRow][nCol]){
-                        
-                    vis[nRow][nCol] = 1;
+                    grid[nRow][nCol] != -1 && grid[nRow][nCol] == 1){
+
+                    // vis[nRow][nCol] = 1;
                     q.push({nRow , nCol , time + 1});
+                    grid[nRow][nCol] = -1;
                 }
             }
         }
 
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i<n;i++){ // O(n * m)
             for(int j = 0;j<m;j++){
-                if(grid[i][j] == 1 && !vis[i][j])
+                if(grid[i][j] == 1)
                     return -1;
             }
         }
