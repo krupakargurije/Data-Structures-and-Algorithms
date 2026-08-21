@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2029-stone-game-ix](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2029-stone-game-ix) |
 | [2104-sum-of-subarray-ranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2104-sum-of-subarray-ranges) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2596-check-knight-tour-configuration](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2596-check-knight-tour-configuration) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2596-check-knight-tour-configuration](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2596-check-knight-tour-configuration) |
 | [2685-count-the-number-of-complete-components](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2685-count-the-number-of-complete-components) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## String
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0735-asteroid-collision) |
+| [2596-check-knight-tour-configuration](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2596-check-knight-tour-configuration) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3838-weighted-word-mapping) |
@@ -466,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-count-good-nodes-in-binary-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1971-find-if-path-exists-in-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1971-find-if-path-exists-in-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+| [2596-check-knight-tour-configuration](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2596-check-knight-tour-configuration) |
 | [2685-count-the-number-of-complete-components](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2685-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -486,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0994-rotting-oranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0994-rotting-oranges) |
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
+| [2596-check-knight-tour-configuration](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2596-check-knight-tour-configuration) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Graph Theory
