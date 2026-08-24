@@ -1,42 +1,24 @@
 class Solution {
-    private:
-    vector<int>prefix;
-    vector<int>dp;
-    // int len;
-
-    // int helper(int idx){
-    //     if(idx == len - 1)
-    //         return prefix[len-1];
-        
-    //     if(dp[idx] != INT_MIN)
-    //         return dp[idx];
-        
-    //     int pic = prefix[idx] - helper(idx + 1);
-    //     int skip = helper(idx + 1);
-
-    //     return dp[idx] = max(pic , skip);
-    // }
 public:
     int stoneGameVIII(vector<int>& stones) {
         int n = stones.size();
-        // len = n;
 
-        prefix.resize(n);
-        dp.resize(n);
-
+        vector<int> prefix(n);
         prefix[0] = stones[0];
 
-        for(int i = 1;i<n;i++){
+        for (int i = 1; i < n; i++) {
             prefix[i] = prefix[i - 1] + stones[i];
         }
-        // int ans = helper(1);
-        dp[n-1] = prefix[n-1];
 
-        for(int i = n - 2;i>= 0;i--){
-            int pic = prefix[i] - dp[i + 1];
-            int skip = dp[i + 1];
-            dp[i] = max(pic , skip);
+        // dp[n - 1]
+        int prev = prefix[n - 1];
+
+        for (int i = n - 2; i >= 1; i--) {
+            int pick = prefix[i] - prev;
+            int skip = prev;
+
+            prev = max(pick, skip);
         }
-        return dp[1];
+        return prev;
     }
 };
