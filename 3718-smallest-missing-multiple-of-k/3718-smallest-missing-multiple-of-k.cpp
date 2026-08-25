@@ -2,11 +2,15 @@ class Solution {
 public:
     int missingMultiple(vector<int>& nums, int k) {
         int n = nums.size();
-        unordered_set<int>st(nums.begin() , nums.end());
+        vector<int>st(101 , 0);
 
-        for(int i = k; ;i += k){
-            if(st.find(i) == st.end())return i;
+        for(int it : nums){
+            st[it] = 1;
         }
-        return -1;
+
+        for(int i = k; i < st.size();i += k){
+            if(!st[i])return i;
+        }
+        return ((100 / k) + 1) * k;
     }
 };
