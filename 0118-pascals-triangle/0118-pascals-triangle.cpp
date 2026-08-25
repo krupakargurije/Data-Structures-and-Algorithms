@@ -13,8 +13,7 @@ public:
             for(int k = 1;k<prev.size();k++){
                 int currNum = 0;
 
-                currNum += prev[k - 1];
-                currNum += prev[k];
+                currNum = prev[k - 1] + prev[k];
                 curr.push_back(currNum);
             }
             curr.push_back(1);
