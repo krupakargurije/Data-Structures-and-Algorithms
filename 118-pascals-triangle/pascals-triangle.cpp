@@ -6,7 +6,7 @@ public:
 
         for(int i = 1;i<numRows;i++){
             vector<int>curr;
-            auto prev = ans[i-1];
+            const auto &prev = ans[i-1];
 
             curr.push_back(1);
 
