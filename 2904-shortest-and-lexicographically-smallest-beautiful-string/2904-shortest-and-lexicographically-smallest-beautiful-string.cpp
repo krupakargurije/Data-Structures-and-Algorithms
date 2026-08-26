@@ -19,12 +19,10 @@ public:
             }
             
             int currLen = right - left + 1;
-            if(numOfOnes == k && currLen < len){
-                start = left;
-                len = currLen;
-            }
-            else if(numOfOnes == k && currLen == len){
-                if(s.substr(start , len) > s.substr(left , currLen)){
+            if (numOfOnes == k) {
+                if (currLen < len ||
+                    (currLen == len &&
+                     s.compare(left, currLen, s, start, len) < 0)) {
                     start = left;
                     len = currLen;
                 }
