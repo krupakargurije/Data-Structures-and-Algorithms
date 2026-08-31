@@ -11,7 +11,7 @@
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        if(!head->next)
+        if(!head || !head->next)
             return {-1 , -1};
 
         ListNode* point = head->next;
