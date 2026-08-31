@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0133-clone-graph) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
+| [0099-recover-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0162-find-peak-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0162-find-peak-element) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0287-find-the-duplicate-number](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0287-find-the-duplicate-number) |
@@ -380,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0100-same-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
