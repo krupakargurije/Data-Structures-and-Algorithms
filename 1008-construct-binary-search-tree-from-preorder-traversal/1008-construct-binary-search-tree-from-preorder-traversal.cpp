@@ -10,20 +10,30 @@
  * };
  */
 class Solution {
-    TreeNode* helper(vector<int> &preorder , int &idx , int upper){
-        if(idx == preorder.size() || preorder[idx] > upper)
-            return NULL;
-
-        TreeNode *root = new TreeNode(preorder[idx++]);
-
-        root->left = helper(preorder , idx , root->val);
-        root->right = helper(preorder , idx , upper);
-
-        return root;
-    }
 public:
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        int idx = 0;
-        return helper(preorder , idx , INT_MAX);
+        TreeNode *root = new TreeNode(preorder[0]);
+
+        stack<TreeNode*>st;
+        st.push(root);
+
+        for(int i = 1;i<preorder.size();i++){
+            TreeNode *currNode = new TreeNode(preorder[i]);
+
+            if(preorder[i] < st.top()->val){
+                st.top()->left = currNode;
+            }
+            else{
+                TreeNode *parent = NULL;
+
+                while(!st.empty() && preorder[i] > st.top()->val){
+                    parent = st.top();
+                    st.pop();
+                }
+                parent->right = currNode;
+            }
+            st.push(currNode);
+        }
+        return root;
     }
 };
