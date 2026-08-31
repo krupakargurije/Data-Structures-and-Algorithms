@@ -11,39 +11,50 @@
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        if(!head || !head->next)
-            return {-1 , -1};
+        if (!head || !head->next || !head->next->next)
+            return {-1, -1};
 
         ListNode* point = head->next;
-        int prevNodeVal = head->val;
 
-        // idx or nodeNumber
-        vector<int>criticalPoints;
+        int prevNodeVal = head->val;
         int i = 1;
 
-        while(point->next){
+        int first = -1;
+        int prev = -1;
+
+        int minDis = INT_MAX;
+
+        while (point->next) {
             int currNodeVal = point->val;
 
-            if(currNodeVal < prevNodeVal && currNodeVal < point->next->val)
-                criticalPoints.push_back(i);
-            else if(currNodeVal > prevNodeVal && currNodeVal > point->next->val)
-                criticalPoints.push_back(i);
-            
+            bool isCritical =
+                (currNodeVal < prevNodeVal && currNodeVal < point->next->val) ||
+                (currNodeVal > prevNodeVal && currNodeVal > point->next->val);
+
+            if (isCritical) {
+                // First critical point
+                if (first == -1) {
+                    first = i;
+                }
+
+                // We already have a previous critical point
+                if (prev != -1) {
+                    minDis = min(minDis, i - prev);
+                }
+                prev = i;
+            }
+
             prevNodeVal = currNodeVal;
             point = point->next;
             i++;
         }
-        
-        if(criticalPoints.size() < 2)
-            return {-1 , -1};
-        
-        int minDis = INT_MAX;
 
-        for(int idx = 1;idx < criticalPoints.size();idx++){
-            minDis = min(minDis , criticalPoints[idx] - criticalPoints[idx - 1]);
-        }
-       int maxDis = criticalPoints.back() - criticalPoints.front();
+        // Fewer than 2 critical points
+        if (first == prev)
+            return {-1, -1};
 
-        return {minDis , maxDis};
+        int maxDis = prev - first;
+
+        return {minDis, maxDis};
     }
 };
