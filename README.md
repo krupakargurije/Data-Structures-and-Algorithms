@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0877-stone-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0907-sum-of-subarray-minimums) |
+| [0940-distinct-subsequences-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0763-partition-labels) |
+| [0940-distinct-subsequences-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0940-distinct-subsequences-ii) |
 | [0981-time-based-key-value-store](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0981-time-based-key-value-store) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
