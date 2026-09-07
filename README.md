@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0435-non-overlapping-intervals) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0115-distinct-subsequences) |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
@@ -467,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
@@ -739,4 +743,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
