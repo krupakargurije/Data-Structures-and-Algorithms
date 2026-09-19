@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1140-stone-game-ii) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1563-stone-game-v) |
@@ -776,4 +777,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
+## Geometry
+|  |
+| ------- |
+| [1401-circle-and-rectangle-overlapping](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1401-circle-and-rectangle-overlapping) |
 <!---LeetCode Topics End-->
