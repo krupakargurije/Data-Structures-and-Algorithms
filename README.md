@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1096-brace-expansion-ii) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1381-design-a-stack-with-increment-operation) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2104-sum-of-subarray-ranges) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-brace-expansion-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1189-maximum-number-of-balloons) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -760,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0020-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## Nim Game
 |  |
 | ------- |
