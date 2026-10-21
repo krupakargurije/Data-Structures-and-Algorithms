@@ -12,7 +12,9 @@ public:
         }
 
         if (isSorted) return 0;
+
         if (n == 2) return -1;
+        
         if (s.front() == mn || s.back() == mx)
             return 1;
 
@@ -20,7 +22,7 @@ public:
             if (s[i] == mn || s[i] == mx)
                 return 2;
 
-                
+
         return 3;
     }
 };
