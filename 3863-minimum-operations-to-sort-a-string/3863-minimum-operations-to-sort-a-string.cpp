@@ -20,6 +20,7 @@ public:
             if (s[i] == mn || s[i] == mx)
                 return 2;
 
+                
         return 3;
     }
 };
