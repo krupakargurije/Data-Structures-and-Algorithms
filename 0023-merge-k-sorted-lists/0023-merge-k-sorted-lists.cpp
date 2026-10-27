@@ -22,10 +22,10 @@ public:
         for (auto node : lists)
             if (node) pq.push(node);
 
-        ListNode dummy(0);
-        ListNode* tail = &dummy;
+        ListNode* dummy = new ListNode(0);
+        ListNode* tail = dummy;
 
-        while (!pq.empty()) {
+        while (!pq.empty()){
             ListNode* node = pq.top();
             pq.pop();
 
@@ -35,7 +35,6 @@ public:
             if (node->next)
                 pq.push(node->next);
         }
-
-        return dummy.next;
+        return dummy->next;
     }
 };
