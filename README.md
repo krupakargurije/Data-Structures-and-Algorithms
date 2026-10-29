@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
@@ -528,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
@@ -553,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
@@ -706,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
@@ -853,6 +858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0229-majority-element-ii) |
 ## Trie
 |  |
