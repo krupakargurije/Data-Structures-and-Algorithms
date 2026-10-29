@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0057-insert-interval) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
+| [0088-merge-sorted-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
+| [0088-merge-sorted-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0088-merge-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
+| [0088-merge-sorted-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0217-contains-duplicate) |
