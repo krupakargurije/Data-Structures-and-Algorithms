@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1331-rank-transform-of-an-array) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1381-design-a-stack-with-increment-operation) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1386-cinema-seat-allocation](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0345-reverse-vowels-of-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0763-partition-labels](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0763-partition-labels) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -431,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1288-remove-covered-intervals) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1331-rank-transform-of-an-array) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1833-maximum-ice-cream-bars](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1833-maximum-ice-cream-bars) |
@@ -459,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0981-time-based-key-value-store](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0981-time-based-key-value-store) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/2333-minimum-sum-of-squared-difference) |
