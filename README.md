@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0057-insert-interval) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0118-pascals-triangle) |
@@ -526,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
