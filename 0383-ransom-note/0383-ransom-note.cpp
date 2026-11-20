@@ -1,19 +1,21 @@
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        unordered_map<char, int> magaHash;
+        int n = magazine.length();
+        if(ransomNote.length() > n)return 0;
 
-        for (char c : magazine) {
-            magaHash[c]++;
+        vector<int>mp(28 , 0);
+
+        for(char c : magazine){
+            mp[c - 'a']++;
         }
 
-        for (char c : ransomNote) {
-            if (magaHash[c] <= 0) {
-                return false;
-            }
-            magaHash[c]--;
+        for(int i = 0;i<ransomNote.length();i++){
+            char c = ransomNote[i];
+            if(mp[c - 'a'] < 1)
+                return 0;
+            mp[c - 'a']--;
         }
-
         return true;
     }
 };
