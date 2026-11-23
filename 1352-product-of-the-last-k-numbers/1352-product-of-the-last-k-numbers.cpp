@@ -1,14 +1,17 @@
 class ProductOfNumbers {
 public:
     vector<int>pref;
+    int lastZero;
 
     ProductOfNumbers(){
         pref.push_back(1);
+        lastZero = -1;
     }
     
     void add(int num) {
         if(num == 0){
-            pref.clear();
+            // pref.clear(); O(current pref size)
+            lastZero = pref.size();
             pref.push_back(1);
         }
         else{
@@ -19,7 +22,7 @@ public:
     int getProduct(int k){
         int n = pref.size();
 
-        if(k >= n)
+        if(k >= n || n - k - 1 < lastZero)
             return 0;
 
         return pref[n-1] / pref[n - k - 1];
