@@ -3,6 +3,7 @@ public:
     vector<vector<int>> merge(vector<vector<int>>& nums) {
         int n = nums.size();
         sort(nums.begin() , nums.end());
+        
         vector<vector<int>>ans;
         ans.push_back(nums[0]);
 
