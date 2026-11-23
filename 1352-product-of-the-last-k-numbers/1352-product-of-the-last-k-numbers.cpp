@@ -28,7 +28,6 @@ public:
         return pref[n-1] / pref[n - k - 1];
     }
 };
-
 /**
  * Your ProductOfNumbers object will be instantiated and called as such:
  * ProductOfNumbers* obj = new ProductOfNumbers();
