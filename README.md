@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0435-non-overlapping-intervals) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0486-predict-the-winner](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0486-predict-the-winner) |
 | [0518-coin-change-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0518-coin-change-ii) |
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0451-sort-characters-by-frequency) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0628-maximum-product-of-three-numbers) |
 | [1096-brace-expansion-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1096-brace-expansion-ii) |
@@ -557,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0435-non-overlapping-intervals) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0763-partition-labels) |
