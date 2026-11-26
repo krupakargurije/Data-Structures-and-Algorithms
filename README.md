@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0189-rotate-array) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0486-predict-the-winner](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0486-predict-the-winner) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0118-pascals-triangle) |
@@ -948,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/0139-word-break) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/krupakargurije/Data-Structures-and-Algorithms/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Brute-Force Search
