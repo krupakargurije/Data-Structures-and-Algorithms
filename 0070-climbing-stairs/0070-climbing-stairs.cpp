@@ -14,20 +14,20 @@ class Solution {
 public:
     int climbStairs(int n) {
         if(n == 1 || n == 2)return n;
-        vector<int> dp(n + 1, 0);
+        // vector<int> dp(n + 1, 0);
         // return helper(n , dp);
 
         // dp[0] = 1;
-        dp[1] = 1;
-        dp[2] = 2;
+        int prev = 1;
+        int curr = 2;
 
         for(int i = 3;i<=n;i++){
-            int one = dp[i - 1];
-            int two = dp[i - 2];
+            int temp = prev + curr;
 
-            dp[i] = one + two;
+            prev = curr;
+            curr = temp;
         }
-        return dp[n];
+        return curr;
     }
 };
 
